@@ -1,6 +1,6 @@
 import torch
 from datasets import load_dataset
-from transformers import BertTokenizerFast, BertForSequenceClassification
+from transformers import AutoModelForSequenceClassification, AutoTokenizer, BertTokenizerFast, BertForSequenceClassification, CamembertForSequenceClassification, CamembertTokenizerFast
 from torch.utils.data import DataLoader, TensorDataset
 from torch.optim import AdamW
 from sklearn.metrics import classification_report
@@ -19,7 +19,8 @@ test_labels = list(ds["validation"]["label"])
 # -------------------------
 # 2. Tokenizer
 # -------------------------
-tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
+tokenizer = CamembertTokenizerFast.from_pretrained("camembert-base")
+
 
 def encode(texts, labels):
     enc = tokenizer(
@@ -46,8 +47,8 @@ test_loader = DataLoader(test_ds, batch_size=16)
 # -------------------------
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-model = BertForSequenceClassification.from_pretrained(
-    "bert-base-uncased",
+model = CamembertForSequenceClassification.from_pretrained(
+    "camembert-base",
     num_labels=3
 ).to(device)
 

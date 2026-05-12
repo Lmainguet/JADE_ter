@@ -46,7 +46,7 @@ test_labels = list(ds["validation"]["label"])
 # 2. Tokenizer
 # -------------------------
 tokenizer = AutoTokenizer.from_pretrained(
-    "camembert/camembert-base-ccnet",
+    "PantagrueLLM/jargon-legal-4096",
     trust_remote_code=True,
     use_auth_token=token
 )

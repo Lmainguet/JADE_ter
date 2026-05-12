@@ -1,0 +1,4 @@
+necessite python 3.10 , pip 23.0.1
+
+installer les librairies 
+```python3 -m pip install --break-system-packages -r code/requirement.txt```

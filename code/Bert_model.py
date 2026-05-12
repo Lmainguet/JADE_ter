@@ -1,13 +1,24 @@
 import torch
 from datasets import load_dataset
-from transformers import AutoModelForSequenceClassification, AutoTokenizer, BertTokenizerFast, BertForSequenceClassification, CamembertForSequenceClassification, CamembertTokenizerFast
+from transformers import AutoModelForSequenceClassification, AutoModelForMaskedLM, AutoTokenizer, BertTokenizerFast, BertForSequenceClassification, CamembertForSequenceClassification, CamembertTokenizerFast
 from torch.utils.data import DataLoader, TensorDataset
 from torch.optim import AdamW
 from sklearn.metrics import classification_report
+from huggingface_hub import login
 
 import random
 import numpy as np
+import torch.nn as nn
 import torch
+import os
+os.environ["HF_HUB_DISABLE_SYMLINKS"] = "1"
+os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "true"
+from dotenv import load_dotenv
+
+load_dotenv()
+token = os.getenv("token")
+
+login(token)
 
 def set_seed(seed=42):
     random.seed(seed)
@@ -34,8 +45,11 @@ test_labels = list(ds["validation"]["label"])
 # -------------------------
 # 2. Tokenizer
 # -------------------------
-tokenizer = CamembertTokenizerFast.from_pretrained("camembert-base")
-
+tokenizer = AutoTokenizer.from_pretrained(
+    "camembert/camembert-base-ccnet",
+    trust_remote_code=True,
+    use_auth_token=token
+)
 
 def encode(texts, labels):
     enc = tokenizer(
@@ -62,11 +76,14 @@ test_loader = DataLoader(test_ds, batch_size=16)
 # -------------------------
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-model = CamembertForSequenceClassification.from_pretrained(
-    "camembert-base",
-    num_labels=3
-).to(device)
+base_model = AutoModelForMaskedLM.from_pretrained(
+    "PantagrueLLM/jargon-legal-4096",
+    trust_remote_code=True,
+    dtype="auto",
+    use_auth_token=token
+)
 
+model = AutoModelForMaskedLM.from_pretrained("PantagrueLLM/jargon-legal-4096", trust_remote_code=True, dtype="auto")
 optimizer = AdamW(model.parameters(), lr=2e-5)
 
 # -------------------------

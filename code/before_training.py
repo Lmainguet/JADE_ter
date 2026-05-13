@@ -1,6 +1,81 @@
-# etre connecté au serveur P:\CRJ\RECHERCHE\PROJET_JADE et au vpn cisco
 import pandas as pd
+import os
+import re
+import xml.etree.ElementTree as ET
 
-chemin = r"P:\CRJ\RECHERCHE\PROJET_JADE\JADE_COMMUN\Annotation\Annotation_automatique_Maritaud\Technologie_light\Super-catégories-objets_0,8\recap_0-8_vérification_humaine_AB_AST complète.ods"
-df = pd.read_excel(chemin, engine="odf")
-print(df.head())
+RACINE = "../documents/AN"
+
+def get_contenu_avec_br(root):
+    contenu = root.find(".//CONTENU")
+    morceaux = []
+    if contenu is None:
+        return ""
+    if contenu.text:
+        morceaux.append(contenu.text)
+
+    for child in contenu:
+        if child.tag.lower() == "br":
+            morceaux.append("\n")
+        if child.text:
+            morceaux.append(child.text)
+        if child.tail:
+            morceaux.append(child.tail)
+    return "".join(morceaux)
+
+"""
+# @brief
+# permet de traiter le xml comme un text en enlevant les <br>. permet de faire un dictionnaire avec chaque considerant par fichier 
+
+# @param
+# texte = contenu de la balise <CONTENU>
+
+# @return
+# bloc de considerants avec le contenu, le numero et le label
+# exemple = {numero_considerant:{text:"texte du considerant", label:[]}, ...}
+# """
+def extraire_blocs_considerants(texte):
+    texte = texte.replace("<br/>", "\n")
+    pattern = r"\n\s*(\d+)\.\s*(.*?)(?=\n\s*\d+\.\s*|\n\s*\n|$)"
+    blocs = {}
+
+    for match in re.finditer(pattern, texte, flags=re.DOTALL):
+        numero = int(match.group(1))
+        contenu = match.group(2).strip()
+        blocs[numero] = {
+            "text": contenu,
+            "label": []
+        }
+    return blocs
+
+
+def create_dico_considerants():
+    # le dico final avec tous les fichiers et les considerants des fichiers
+    documents = []
+    
+    for root, dirs, files in os.walk(RACINE):
+        dossier = root.lower()
+        if "rejet" not in dossier and "annulation" not in dossier:
+            continue
+
+        for f in files:
+            if not f.endswith("_annot.xml"):
+                continue
+
+            chemin = os.path.join(root, f)
+            #print(f"\n {chemin}")
+            try:
+                tree = ET.parse(chemin)
+                racine_xml = tree.getroot()
+
+                texte_contenu = get_contenu_avec_br(racine_xml)
+                blocs = extraire_blocs_considerants(texte_contenu)
+
+                # ID du document
+                doc_id = f.replace("_annot.xml", "")
+
+                # on ajout les considerants du fichier traité
+                documents.append({ doc_id: blocs })
+
+            except Exception as e:
+                print(f"Erreur XML dans {chemin} : {e}")
+    return documents

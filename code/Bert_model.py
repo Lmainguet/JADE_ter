@@ -4,21 +4,9 @@ from transformers import AutoModelForSequenceClassification, AutoModelForMaskedL
 from torch.utils.data import DataLoader, TensorDataset
 from torch.optim import AdamW
 from sklearn.metrics import classification_report
-from huggingface_hub import login
-
 import random
 import numpy as np
-import torch.nn as nn
 import torch
-import os
-os.environ["HF_HUB_DISABLE_SYMLINKS"] = "1"
-os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "true"
-from dotenv import load_dotenv
-
-load_dotenv()
-token = os.getenv("token")
-
-login(token)
 
 def set_seed(seed=42):
     random.seed(seed)
@@ -45,11 +33,7 @@ test_labels = list(ds["validation"]["label"])
 # -------------------------
 # 2. Tokenizer
 # -------------------------
-tokenizer = AutoTokenizer.from_pretrained(
-    "PantagrueLLM/jargon-legal-4096",
-    trust_remote_code=True,
-    use_auth_token=token
-)
+tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
 
 def encode(texts, labels):
     enc = tokenizer(
@@ -76,14 +60,11 @@ test_loader = DataLoader(test_ds, batch_size=16)
 # -------------------------
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-base_model = AutoModelForMaskedLM.from_pretrained(
-    "PantagrueLLM/jargon-legal-4096",
-    trust_remote_code=True,
-    dtype="auto",
-    use_auth_token=token
-)
+model = BertForSequenceClassification.from_pretrained(
+    "bert-base-uncased",
+    num_labels=3
+).to(device)
 
-model = AutoModelForMaskedLM.from_pretrained("PantagrueLLM/jargon-legal-4096", trust_remote_code=True, dtype="auto")
 optimizer = AdamW(model.parameters(), lr=2e-5)
 
 # -------------------------

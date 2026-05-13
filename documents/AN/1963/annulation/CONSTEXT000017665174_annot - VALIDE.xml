@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://i3l.univ-grenoble-alpes.fr/~lebarbet/jade/jade.css" type="text/css"?>
+<!DOCTYPE TEXTE_JURI_CONSTIT SYSTEM "http://i3l.univ-grenoble-alpes.fr/~lebarbet/jade/jade.dtd">
+<TEXTE_JURI_CONSTIT>
+<META>
+<META_COMMUN>
+<ID>CONSTEXT000017665174</ID>
+<ANCIEN_ID>CCO63AN00316</ANCIEN_ID>
+<ORIGINE>CONSTIT</ORIGINE>
+<URL>texte/juri/constit/CONS/TEXT/00/00/17/66/51/CONSTEXT000017665174.xml</URL>
+<NATURE>AN</NATURE>
+</META_COMMUN>
+<META_SPEC>
+<META_JURI>
+<TITRE>A.N., Gard (2ème circ.)</TITRE>
+<DATE_DEC>1963-02-12</DATE_DEC>
+<JURIDICTION>Conseil constitutionnel</JURIDICTION>
+<NUMERO>62-316</NUMERO>
+<SOLUTION>Annulation</SOLUTION>
+</META_JURI>
+<META_JURI_CONSTIT>
+<NOR/>
+<NATURE_QUALIFIEE>AN</NATURE_QUALIFIEE>
+<LOI_DEF date="2999-01-01" nor="" num=""/>
+<TITRE_JO>Journal officiel du 20 février 1963, p. 1710</TITRE_JO>
+<URL_CC>http://www.conseil-constitutionnel.fr/decision/1963/62316an.htm</URL_CC>
+<ECLI>ECLI:FR:CC:1963:62.316.AN</ECLI>
+</META_JURI_CONSTIT>
+</META_SPEC>
+</META>
+<TEXTE>
+<BLOC_TEXTUEL>
+<CONTENU><VISA>Le Conseil constitutionnel,<br/>
+                    <br/>Vu l'article 59 de la Constitution ;<br/> Vu l'ordonnance du 7 novembre
+                    1958 portant loi organique sur le Conseil constitutionnel ;<br/> Vu l'ordonnance
+                    du 13 octobre 1958 relative à l'élection des députés à l'Assemblée nationale
+                    ;<br/> Vu le Code électoral ;<br/> Vu la requête présentée par le sieur Jean
+                    Poudevigne, demeurant à Domazan (Gard), ladite requête enregistrée le 6 décembre
+                    1962 au secrétariat général du Conseil constitutionnel et tendant à ce qu'il
+                    plaise au Conseil statuer sur les opérations électorales auxquelles il a été
+                    procédé les 18 et 25 novembre 1962 dans la 2e circonscription du département du
+                    Gard pour la désignation d'un député à l'Assemblée nationale ;<br/> Vu les
+                    observations en défense présentées par la dame Gilberte Roca, députe, lesdites
+                    observations enregistrées le 20 décembre 1962 au secrétariat général du Conseil
+                    constitutionnel ;<br/> Vu les autres pièces produites et jointes au dossier
+                    ;<br/> Ouï le rapporteur en son rapport ;</VISA><br/>
+                <br/><DECISION><Grief
+                        objet="7.Opérations_électorales_7_Etablissement_du_PV_et_annexes"
+                        qualification="">1. Considérant que le procès-verbal des opérations
+                        électorales d'une commune ne porte la mention ni du nombre des émargements,
+                        ni du nombre des bulletins de vote et enveloppes trouvés dans l'urne, ni de
+                        celui des bulletins annulés ; qu'au procès-verbal établi dans une autre
+                        commune ne figure pas le nombre des émargements ; que, dans six communes,
+                        aucun des bulletins et enveloppes annulés n'est annexé au procès-verbal et
+                        que, dans cinq autres communes, le chiffre des bulletins et enveloppes
+                        annulés annexés au procès-verbal n'est pas en concordance avec celui des
+                        bulletins et enveloppes déclarés nuls ; que l'ensemble de ces irrégularités
+                        enlève au recensement des votes toute garantie d'exactitude et fait obstacle
+                        à la vérification des nombres des voix réellement recueillies par les
+                        candidats, notamment par le sieur Poudevigne et par la dame Roca,
+                            <Ecart_de_voix valeur_juge="suffisant_pour_annuler">laquelle n'a été
+                            proclamée élue qu'avec 33 voix de plus que le requérant</Ecart_de_voix>
+                        ;</Grief><br/>
+                    <Grief objet="4.Campagne_propagande_16_Irrégularités_diverses" qualification=""
+                        >2. Considérant qu'au surplus de graves irrégularités de propagande,</Grief>
+                    <Grief objet="4.Campagne_propagande_15_Tracts" qualification="">telles que la
+                        distribution de nombreux tracts, ont été commises par deux candidats, dont
+                        la dame Roca, adversaires du repérant ;</Grief><br/>
+                    <SyntheseGrief
+                        qualification="3_Grief_C_4_Atteinte_sincérité_scrutin_1_Sans_rectification_des_résultats"
+                        >3. Considérant que, de ce qui précède, il résulte qu'il y a lieu de
+                        prononcer l'annulation des opérations électorales dont s'agit
+                        ;</SyntheseGrief></DECISION><br/>
+                <br/>Décide :<br/> Article premier :<br/> L'élection législative à laquelle il a été
+                procédé les 18 et 25 novembre 1962 dans la 2e circonscription du Gard est
+                annulée.<br/> Article 2 :<br/> La présente décision sera notifiée à l'Assemblée
+                nationale et publiée au Journal officiel de la République française.<br/> Délibéré
+                par le Conseil constitutionnel dans sa séance du 12 février 1963. </CONTENU>
+</BLOC_TEXTUEL>
+<SAISINES>
+<CONTENU/>
+</SAISINES>
+<OBSERVATIONS>
+<CONTENU/>
+</OBSERVATIONS>
+</TEXTE>
+</TEXTE_JURI_CONSTIT>

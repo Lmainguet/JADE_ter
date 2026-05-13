@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://i3l.univ-grenoble-alpes.fr/~lebarbet/jade/jade.css" type="text/css"?>
+<!DOCTYPE TEXTE_JURI_CONSTIT SYSTEM "http://i3l.univ-grenoble-alpes.fr/~lebarbet/jade/jade.dtd">
+<TEXTE_JURI_CONSTIT>
+<META>
+<META_COMMUN>
+<ID>CONSTEXT000017664431</ID>
+<ANCIEN_ID>CCO02AN02720</ANCIEN_ID>
+<ORIGINE>CONSTIT</ORIGINE>
+<URL>texte/juri/constit/CONS/TEXT/00/00/17/66/44/CONSTEXT000017664431.xml</URL>
+<NATURE>AN</NATURE>
+</META_COMMUN>
+<META_SPEC>
+<META_JURI>
+<TITRE>A.N., Martinique (2ème circ.)</TITRE>
+<DATE_DEC>2002-07-25</DATE_DEC>
+<JURIDICTION>Conseil constitutionnel</JURIDICTION>
+<NUMERO>2002-2720</NUMERO>
+<SOLUTION>Rejet</SOLUTION>
+</META_JURI>
+<META_JURI_CONSTIT>
+<NOR>CSCX0205793S</NOR>
+<NATURE_QUALIFIEE>AN</NATURE_QUALIFIEE>
+<LOI_DEF date="2999-01-01" nor="" num=""/>
+<TITRE_JO>Journal officiel du 4 août 2002, p. 13356</TITRE_JO>
+<URL_CC>http://www.conseil-constitutionnel.fr/decision/2002/20022720an.htm</URL_CC>
+<ECLI>ECLI:FR:CC:2002:2002.2720.AN</ECLI>
+</META_JURI_CONSTIT>
+</META_SPEC>
+</META>
+<TEXTE>
+<BLOC_TEXTUEL>
+<CONTENU><VISA>Le Conseil constitutionnel,<br/>
+                    <br/>Vu la requête présentée par M. Henry BARBE, demeurant à Schoelcher
+                    (Martinique), enregistrée à la préfecture de la Martinique le 20 juin 2002 et
+                    tendant à l'annulation des opérations électorales auxquelles il a été procédé
+                    les 9 et 16 juin 2002 dans la 2ème circonscription du département de la
+                    Martinique pour la désignation d'un député à l'Assemblée nationale ;<br/> Vu la
+                    Constitution, notamment son article 59 ;<br/> Vu l'ordonnance n° 58-1067 du 7
+                    novembre 1958 modifiée portant loi organique sur le Conseil constitutionnel,
+                    notamment son article 38, alinéa 2 ;<br/> Vu le code électoral ;<br/> Vu le
+                    règlement applicable à la procédure suivie devant le Conseil constitutionnel
+                    pour le contentieux de l'élection des députés et des sénateurs ;<br/> Le
+                    rapporteur ayant été entendu ;</VISA><br/>
+                <br/><DECISION>1. Considérant qu'aux termes du second alinéa de l'article 38 de
+                    l'ordonnance susvisée du 7 novembre 1958 : "...le Conseil, sans instruction
+                    contradictoire préalable, peut rejeter, par décision motivée, les requêtes
+                    irrecevables ou ne contenant que des griefs qui manifestement ne peuvent avoir
+                    une influence sur les résultats de l'élection" ;<br/><Grief
+                        objet="7.Opérations_électorales_11_Bulletins" qualification=""> 2.
+                        Considérant qu'à l'appui de sa requête, M. BARBE, qui a obtenu 136 voix lors
+                        du premier tour de l'élection contestée, allègue que les bulletins de deux
+                        candidats, qui ont recueilli respectivement 86 et 218 voix, n'auraient pas
+                        été conformes aux prescriptions réglementaires ;</Grief>
+                    <Grief qualification="" objet="7.Opérations_électorales_3_Déroulement_scrutin"
+                        >que l'heure de clôture du scrutin n'aurait pas été respectée dans quelques
+                        bureaux de vote ;</Grief>
+                    <Grief objet="7.Opérations_électorales_7_Etablissement_du_PV_et_annexes"
+                        qualification="">que les présidents des bureaux de vote concernés l'auraient
+                        empêché de mentionner ces dépassements d'horaire sur les procès-verbaux des
+                        opérations de vote ;</Grief>
+                    <Grief objet="4.Campagne_propagande_13_Réunions" qualification="">qu'il n'aurait
+                        pas obtenu l'autorisation de tenir une réunion sur le territoire de la
+                        commune de Morne Rouge ;</Grief>
+                    <Grief qualification="" objet="7.Opérations_électorales_15_Procurations">que
+                        quatorze procurations seraient irrégulières ;</Grief><br/><SyntheseGrief
+                        qualification="2_Grief_ETEDC_1_Rejet38.2_3_insusceptible_effet_écart_de_voix"
+                        > 3. Considérant qu'eu égard au nombre de voix obtenues par chacun des
+                        candidats, les faits allégués, à les supposer établis, n'ont pu
+                        manifestement avoir une influence sur l'issue du
+                    scrutin,</SyntheseGrief></DECISION><br/>
+                <br/>Décide :<br/> Article premier :<br/> La requête de M. Henry BARBE est
+                rejetée.<br/> Article 2 :<br/> La présente décision sera notifiée au président de
+                l'Assemblée nationale et publiée au Journal officiel de la République
+                française.<br/> Délibéré par le Conseil constitutionnel dans sa séance du 25 juillet
+                2002, où siégeaient : MM. Yves GUÉNA, Président, Michel AMELLER, Jean-Claude
+                COLLIARD, Olivier DUTHEILLET de LAMOTHE, Pierre JOXE, Pierre MAZEAUD, Mmes Monique
+                PELLETIER, Dominique SCHNAPPER et Simone VEIL. </CONTENU>
+</BLOC_TEXTUEL>
+<SAISINES>
+<CONTENU/>
+</SAISINES>
+<OBSERVATIONS>
+<CONTENU/>
+</OBSERVATIONS>
+</TEXTE>
+</TEXTE_JURI_CONSTIT>

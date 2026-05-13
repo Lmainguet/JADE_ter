@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://i3l.univ-grenoble-alpes.fr/~lebarbet/jade/jade.css" type="text/css"?>
+<!DOCTYPE TEXTE_JURI_CONSTIT SYSTEM "http://i3l.univ-grenoble-alpes.fr/~lebarbet/jade/jade.dtd">
+<TEXTE_JURI_CONSTIT>
+<META>
+<META_COMMUN>
+<ID>CONSTEXT000017665910</ID>
+<ANCIEN_ID>CCO81AN00911</ANCIEN_ID>
+<ORIGINE>CONSTIT</ORIGINE>
+<URL>texte/juri/constit/CONS/TEXT/00/00/17/66/59/CONSTEXT000017665910.xml</URL>
+<NATURE>AN</NATURE>
+</META_COMMUN>
+<META_SPEC>
+<META_JURI>
+<TITRE>A.N., Mayotte</TITRE>
+<DATE_DEC>1981-09-17</DATE_DEC>
+<JURIDICTION>Conseil constitutionnel</JURIDICTION>
+<NUMERO>81-911/929</NUMERO>
+<SOLUTION>Rejet</SOLUTION>
+</META_JURI>
+<META_JURI_CONSTIT>
+<NOR/>
+<NATURE_QUALIFIEE>AN</NATURE_QUALIFIEE>
+<LOI_DEF date="2999-01-01" nor="" num=""/>
+<TITRE_JO>Journal officiel du 19 septembre 1981, p. 2512</TITRE_JO>
+<URL_CC>http://www.conseil-constitutionnel.fr/decision/1981/81911_929an.htm</URL_CC>
+<ECLI>ECLI:FR:CC:1981:81.911.AN</ECLI>
+</META_JURI_CONSTIT>
+</META_SPEC>
+</META>
+<TEXTE>
+<BLOC_TEXTUEL>
+<CONTENU><VISA>Le Conseil constitutionnel,<br/>
+                    <br/>Vu l'article 59 de la Constitution ;<br/> Vu l'ordonnance du 7 novembre
+                    1958 portant loi organique sur le Conseil constitutionnel ;<br/> Vu le Code
+                    électoral ;<br/> Vu :<br/> 1° La requête présentée par M. Ahmed MAOULIDA,
+                    demeurant à M'Tsapéré (Mayotte), enregistrée le 18 juin 1981 à la Représentation
+                    du Gouvernement à Mayotte et tendant à ce qu'il soit statué sur les opérations
+                    électorales auxquelles il a été procédé le 14 juin 1981 dans la circonscription
+                    de Mayotte pour la désignation d'un député à l'Assemblée nationale ;<br/> 2° La
+                    requête présentée M. Frédéric GABRIEL, demeurant à Paris (16e), 36, rue
+                    Chardon-Lagache, enregistrée le 24 juin 1981 au secrétariat général du Conseil
+                    constitutionnel et tendant à ce qu'il soit statué sur les mêmes opérations
+                    électorales ;<br/> Vu les mémoires ampliatifs présentés par M. Ahmed MAOULIDA,
+                    enregistrés au secrétariat général du Conseil constitutionnel les 7 juillet, 20
+                    juillet, 31 juillet et 17 août 1981 ;<br/> Vu les observations en défense
+                    présentées par M. Jean-François HORY, député enregistrées le 27 juillet 1981 au
+                    secrétariat général du Conseil constitutionnel ;<br/> Vu les observations
+                    présentées par le secrétaire d'État auprès du ministre d'État, ministre de
+                    l'Intérieur et de la Décentralisation, chargé des départements et territoires
+                    d'outre-mer, enregistrées le 30 juin et le 4 septembre 1981 au secrétariat
+                    général du Conseil constitutionnel ;<br/> Vu les autres pièces produites et
+                    jointes au dossier ;<br/> Ouï le rapporteur en son rapport ;</VISA><br/>
+                <br/><DECISION>1. Considérant que les deux requêtes susvisées de MM. MAOULIDA et
+                    GABRIEL sont relatives aux mêmes opérations électorales ; qu'il y a lieu de les
+                    joindre pour y être statué par une seule décision ;<br/> Sur la requête de M.
+                    MAOULIDA :<br/><Grief
+                        objet="4.Campagne_propagande_17_Distribution_acheminement_propagande"
+                        qualification=""> 2. Considérant que le requérant soutient que des bulletins
+                        de vote auraient été distribués par des agents de l'autorité
+                        municipale,</Grief>
+                    <Grief objet="7.Opérations_électorales_3_Déroulement_scrutin" qualification=""
+                        >que de nombreuses cartes électorales n'auraient été remises aux électeurs
+                        qu'au moment des opérations de vote,</Grief>
+                    <Grief objet="4.Campagne_propagande_1_Affiches" qualification="">que les
+                        emplacements nécessaires à l'apposition des affiches électorales n'auraient
+                        pas été réservés par les autorités municipales de différentes
+                        communes,</Grief>
+                    <Grief objet="5.Campagne_pressions_1_Nature_des_pressions" qualification="">que
+                        des pressions diverses auraient été exercées sur les électeurs et que des
+                        libéralités auraient été faites à ceux-ci pour influencer leur vote
+                        ;</Grief>
+                    <SyntheseGrief
+                        qualification="1.Grief_NC_2_Rejet_au_fond_1_non_assorti_précisions_preuves"
+                        >que ces griefs ne sont assortis d'aucun commencement de preuve permettant
+                        d'en apprécier le bien fondé ; que, par suite, ils ne peuvent pas être
+                        retenus ;</SyntheseGrief><br/> Sur la requête de M. GABRIEL :<br/>
+                    <Grief objet="2.Préalable_scrutin_1_Listes_Electorales"
+                        qualification="1.Grief_NC_2_Rejet_au_fond_1_non_assorti_précisions_preuves"
+                        >3. Considérant que le requérant fait état de diverses irrégularités dans
+                        l'établissement des listes électorales sans apporter la preuve de leur
+                        caractère frauduleux ; qu'il n'appartient pas au Conseil constitutionnel
+                        d'apprécier la régularité des inscriptions ou radiations sur les listes
+                        électorales dès lors qu'il n'est pas établi que les irrégularités alléguées
+                        aient constitué des manoeuvres ;</Grief><br/>
+                    <Grief objet="7.Opérations_électorales_3_Déroulement_scrutin" qualification=""
+                        >4. Considérant que le requérant soutient que des cartes électorales
+                        n'auraient été<br/> remises qu'au moment du scrutin pour s'assurer que des
+                        électeurs votaient pour la candidature de M. HORY,</Grief><Grief
+                        objet="6.Financement_4_Recettes" qualification=""> que des véhicules
+                        appartenant à une collectivité publique auraient été utilisés pour mener la
+                        campagne électorale de ce candidat,</Grief>
+                    <Grief objet="5.Campagne_pressions_1_Nature_des_pressions" qualification="">que
+                        des libéralités auraient été faites pour obtenir le suffrage des
+                        bénéficiaires,</Grief>
+                    <Grief objet="5.Campagne_pressions_2_Manœuvres_situation_politique_candidats"
+                        qualification="">que M. HORY aurait abusivement fait état du soutien du
+                        parti socialiste,</Grief>
+                    <Grief objet="7.Opérations_électorales_6_Dépouillement" qualification="">que
+                        diverses irrégularités auraient été commises dans les opérations de vote et
+                        de dépouillement de différents bureaux de vote ;</Grief>
+                    <SyntheseGrief
+                        qualification="1.Grief_NC_2_Rejet_au_fond_1_non_assorti_précisions_preuves"
+                        >que ces multiples griefs ne sont assortis d'aucun commencement de preuve
+                        permettant d'en apprécier le bien-fondé ; que, par suite, ils ne peuvent pas
+                        être retenus ;</SyntheseGrief></DECISION><br/>
+                <br/>Décide :<br/> Article premier :<br/> Les requêtes susvisées de MM. MAOULIDA et
+                GABRIEL sont rejetées.<br/> Article 2 :<br/> La présente décision sera notifiée à
+                l'Assemblée nationale et publiée au Journal officiel de la République
+                française.<br/> Délibéré par le Conseil constitutionnel dans sa séance du 17
+                septembre 1981, où siégeaient : MM. Roger FREY, président, MONNERVILLE, JOXE, GROS,
+                LECOBRT, BROUILLET, VEDEL, SEGALAT, PÉRETTI. </CONTENU>
+</BLOC_TEXTUEL>
+<SAISINES>
+<CONTENU/>
+</SAISINES>
+<OBSERVATIONS>
+<CONTENU/>
+</OBSERVATIONS>
+</TEXTE>
+</TEXTE_JURI_CONSTIT>

@@ -2,6 +2,6 @@ python3 -m venv venv
 source venv/bin/activate
 
 installer les librairies 
-```python3 -m pip install --break-system-packages -r code/requirement.txt```
+```python3 -m pip install --break-system-packages -r requirement.txt```
 sudo apt install cifs-utils
 

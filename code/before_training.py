@@ -1,3 +1,4 @@
+import json
 import pandas as pd
 import os
 import re
@@ -37,8 +38,7 @@ def get_contenu_avec_br(root):
 # exemple = {numero_considerant:{text:"texte du considerant", label:[]}, ...}
 # """
 def extraire_blocs_considerants(texte):
-    texte = texte.replace("<br/>", "")    
-
+    texte = texte.replace("<br/>", "")
     #numéro + contenu
     pattern = r"\n\s*(\d+)\.\s*(.*?)(?=\n\s*\d+\.\s*|\n\s*\n|$)"
     blocs = []
@@ -73,9 +73,9 @@ def extraire_blocs_considerants(texte):
     return blocs
 """
 
-def create_dico_considerants():
+def create_dico_considerants(RACINE=RACINE,output_json="output.json"):
     # le dico final avec tous les fichiers et les considerants des fichiers
-    documents = {}
+    documents = []
     
     for root, dirs, files in os.walk(RACINE):
         dossier = root.lower()
@@ -100,11 +100,17 @@ def create_dico_considerants():
                 doc_id = f.replace("_annot.xml", "")
 
                 # on ajout les considerants du fichier traité
-                documents[doc_id] = blocs
+                documents.append({
+                    "id": doc_id,
+                    "considerants": blocs,
+                })
                 print(documents)
             except Exception as e:
                 print(f"Erreur XML dans {chemin} : {e}")
-    
+    with open(output_json, "w", encoding="utf-8") as f:
+        json.dump(documents, f, ensure_ascii=False, indent=2)
+
+    print(f"JSON généré : {output_json}")
     return documents
 
 

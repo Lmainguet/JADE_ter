@@ -1,7 +1,9 @@
-python3 -m venv venv
-source venv/bin/activate
+create python env just one 
+```python3 -m venv venv```
 
 installer les librairies 
 ```python3 -m pip install --break-system-packages -r requirement.txt```
 sudo apt install cifs-utils
 
+activate python env 
+```source venv/bin/activate```

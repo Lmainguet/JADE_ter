@@ -22,6 +22,16 @@ def find_label(doc_id):
             index_liste.append(i)
     return index_liste if index_liste else None
 
+"""
+# @brief
+# trouve le numero du considerant corrigé afin de pouvoir attribuer le label 
+# de ce considerant au considerant equivvalent dans json_considerant
+# @param
+# index = index de la ligne a traiter de label (le doc ODS)
+
+# @return
+# index de la ligne et le numero du considerant traité dans la ligne
+# """
 def fun_correspondance(index):#[49]
     for i in index : 
         num = int(label.Texte[i].split(".")[0].strip()) #extrait le numéro du fichier

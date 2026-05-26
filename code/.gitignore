@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+/venv
+/documents/AN
+*Zone.Identifier
+.DS_Store
+Thumbs.db
+=======
 /venv/
 /documents/AN/*
 texte.json
+>>>>>>> 228ecf810ee8951872a8e27596c28a7e54052490

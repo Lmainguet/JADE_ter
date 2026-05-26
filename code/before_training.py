@@ -57,21 +57,6 @@ def extraire_blocs_considerants(texte):
             })
     return blocs
 
-"""def extraire_blocs_considerants(texte):
-    texte = texte.replace("<br/>", "")
-    pattern = r"\n\s*(\d+)\.\s*(.*?)(?=\n\s*\d+\.\s*|\n\s*\n|$)"
-    blocs = []
-
-    for match in re.finditer(pattern, texte, flags=re.DOTALL):
-        numero = int(match.group(1))
-        contenu = match.group(2).strip()
-        blocs.append({
-            "numero": numero,
-            "text": contenu,
-            "label": []
-        })
-    return blocs
-"""
 
 def create_dico_considerants(RACINE=RACINE,output_json="output.json"):
     # le dico final avec tous les fichiers et les considerants des fichiers

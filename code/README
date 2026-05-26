@@ -1,4 +1,4 @@
-create python env just one 
+create python env just one
 ```python3 -m venv venv```
 
 installer les librairies 

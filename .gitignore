@@ -1,0 +1,9 @@
+/venv
+/documents/AN/*
+*.xml
+.DS_Store
+.DS_Store?
+._*
+
+*Zone.Identifier
+Thumbs.db

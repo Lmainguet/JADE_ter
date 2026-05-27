@@ -7,7 +7,7 @@ from datasets import Dataset, DatasetDict
 from sklearn.model_selection import train_test_split
 
 
-RACINE = "../documents/AN/1958"
+RACINE = "../documents/AN"
 
 def get_contenu_avec_br(root):
     contenu = root.find(".//CONTENU")

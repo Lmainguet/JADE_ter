@@ -4,12 +4,12 @@ import pandas as pd
 import json
 
 # Charger le fichier avec les labels verifiés
-label = pd.read_excel("../documents/recap_0-8_vérification_humaine_AB_AST complète.ods", engine="odf")
+label = pd.read_excel("documents/recap_0-8_vérification_humaine_AB_AST complète.ods", engine="odf")
 # json avec les considerants par fichier
-with open('output.json') as f:
+with open('code/output.json') as f:
     json_considerants = json.load(f)
     
-with open('../../louis_maritaud/data_objet.json') as f:
+with open('code/data_objet.json') as f:
     json_label = json.load(f)
     
 
@@ -50,10 +50,8 @@ def fun_correspondance(index):
 
 def main() :
     for i in json_considerants:
-        #liste des index 
         index_considerant = find_label(i["id"]) # ex : [2, 3]
-        print(f"index_considerant pour {i['id']} : {index_considerant}")
-        #colonne de ODS
+        #print(f"index_considerant pour {i['id']} : {index_considerant}")
         annot_propose = label["Annotation alternative proposée"]
         if index_considerant is not None:
             

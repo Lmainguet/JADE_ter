@@ -57,27 +57,15 @@ def extraire_blocs_considerants(texte):
             })
     return blocs
 
-"""def extraire_blocs_considerants(texte):
-    texte = texte.replace("<br/>", "")
-    pattern = r"\n\s*(\d+)\.\s*(.*?)(?=\n\s*\d+\.\s*|\n\s*\n|$)"
-    blocs = []
-
-    for match in re.finditer(pattern, texte, flags=re.DOTALL):
-        numero = int(match.group(1))
-        contenu = match.group(2).strip()
-        blocs.append({
-            "numero": numero,
-            "text": contenu,
-            "label": []
-        })
-    return blocs
-"""
 
 def create_dico_considerants(RACINE=RACINE,output_json="output.json"):
     # le dico final avec tous les fichiers et les considerants des fichiers
     documents = []
+    total_xml = 0
+    total_traite = 0
     
     for root, dirs, files in os.walk(RACINE):
+        print(f"Traitement du dossier : {root}, {dirs}")
         dossier = root.lower()
         if "rejet" not in dossier and "annulation" not in dossier:
             #print("pas de dossier rejet ou annualtion trouvé")
@@ -87,9 +75,8 @@ def create_dico_considerants(RACINE=RACINE,output_json="output.json"):
             if not f.endswith("_annot.xml"):
                 #print(f"Le fichier {f} n'est pas un fichier XML d'annotation")
                 continue
-
+            total_xml += 1
             chemin = os.path.join(root, f)
-            #print(f"\n {chemin}")
             try:
                 tree = ET.parse(chemin)
                 racine_xml = tree.getroot()
@@ -104,13 +91,18 @@ def create_dico_considerants(RACINE=RACINE,output_json="output.json"):
                     "id": doc_id,
                     "considerants": blocs,
                 })
-                print(documents)
+                total_traite += 1
             except Exception as e:
                 print(f"Erreur XML dans {chemin} : {e}")
+                
+    print(f"\nFichiers annot XML trouvés : {total_xml}")
+    print(f"Fichiers traités avec succès : {total_traite}")
+    print(f"Fichiers en erreur : {total_xml - total_traite}")
+    
     with open(output_json, "w", encoding="utf-8") as f:
         json.dump(documents, f, ensure_ascii=False, indent=2)
 
-    print(f"JSON généré : {output_json}")
+    #print(f"JSON généré : {output_json}")
     return documents
 
 
@@ -120,7 +112,6 @@ def dict_to_datasetdict(data_dict, test_size=0.15, seed=42):
     labels = []
 
     for item in data_dict.values():
-        #print(item)
         texts.append(item["text"])
         labels.append(item.get("label", []))
 
@@ -148,4 +139,4 @@ def dict_to_datasetdict(data_dict, test_size=0.15, seed=42):
         "validation": val_dataset
     })
     
-print(create_dico_considerants())
+create_dico_considerants()

@@ -1,17 +1,34 @@
 import math
 from operator import index
+import re
 import pandas as pd
 import json
 
+MODE = "PROD"   # ou "DEV"
+
 # Charger le fichier avec les labels verifiés
-label = pd.read_excel("documents/recap_0-8_vérification_humaine_AB_AST complète.ods", engine="odf")
+label = pd.read_excel("../documents/recap_0-8_vérification_humaine_AB_AST complète.ods", engine="odf")
 # json avec les considerants par fichier
-with open('code/output.json') as f:
+with open('output.json') as f:
     json_considerants = json.load(f)
     
-with open('code/data_objet.json') as f:
+with open('../../louis_maritaud/data_objet.json') as f:
     json_label = json.load(f)
     
+"""
+# @brief
+#avoir les commentaires et etapes de dev 
+# @param
+# *arg = "explication"
+# **kwargs = "fichier" : fichier.json
+
+# @return
+# print
+# """
+def log(*args, step=None):
+    if MODE == "DEV":
+        print(step, *args)
+
 
 """
 # @brief
@@ -47,37 +64,74 @@ def fun_correspondance(index):
         return index, num
     except Exception:
         return None
+    
+"""
+# @brief
+# on boucle sur les considerants d'un fichier/d'un doc_id/d'un element de json_considerant
+# afin de trouver le considerant de json_considerant qui correpond a celui de label et delui donner un label
 
+# @param
+# num_considerant = numéro du considerant de json_considerant
+# fichier = dictionnaire contenant tous les considerant d'un fichier
+# annotation = annotation issu de label a ajouter dans le dico json_considerant (c)
+# """
+def push_label(num_considerant, fichier, annotation):
+    for c in fichier["considerants"]:
+        if c["numero"] == num_considerant:
+            c["label"].append(annotation)
+            log(f"ajout de annotation pour le considerant {num_considerant}: {annotation}", step="push_label()")
+
+
+"""
+# @brief
+# on boucle sur les considerants d'un fichier/d'un doc_id/d'un element de json_considerant
+# afin de trouver le considerant de json_considerant qui correpond a celui de label et delui donner un label
+
+# @param
+# num_considerant = numéro du considerant de json_considerant
+# fichier = dictionnaire contenant tous les considerant d'un fichier
+# annotation = annotation issu de label a ajouter dans le dico json_considerant (c)
+# """
+def find_and_push(liste_correspondance, j, i):
+    #colonne de ods avec les annotations proposées car le nom etait trop long
+    annot_propose = label["Annotation alternative proposée"]
+    
+    if liste_correspondance is not None:
+        log("correspondance pour", f"{j}: {liste_correspondance}", step="find_and_push()")
+        annotation = label["Annotation"][liste_correspondance[0]]
+        if annot_propose[liste_correspondance[0]]is not None and not (isinstance(annot_propose[liste_correspondance[0]], float) and math.isnan(annot_propose[liste_correspondance[0]])):
+            annotation = annot_propose[liste_correspondance[0]]
+        log("correspondance annotation", f'{j}: {annotation}', step="find_and_push()")
+        push_label(liste_correspondance[1], i, annotation)
+
+
+"""
+# @brief
+# on boucle sur un element de json_considerant
+# on trouve si il y a des label corrigés pour les considerant de cet element de json_considerant
+# et si oui on ajoute les labels corrigés dans json_considerant
+
+# @return
+# fichierconsiderants_avec_labels.json : json_considerant avec les labels corrigés ajoutés
+# """
 def main() :
+    print("Début de l'extraction des labels pour les considerants ...")
     for i in json_considerants:
+        #liste des index 
         index_considerant = find_label(i["id"]) # ex : [2, 3]
-        #print(f"index_considerant pour {i['id']} : {index_considerant}")
-        annot_propose = label["Annotation alternative proposée"]
+        log("index_considerant pour", f"{i['id']}: {index_considerant}", step="main()")
         if index_considerant is not None:
             
             if len(index_considerant) > 1:
                 for j in index_considerant:
                     liste_correspondance = fun_correspondance(j)
-                    if liste_correspondance is not None:
-                        annotation = label["Annotation"][liste_correspondance[0]]
-                        if annot_propose[liste_correspondance[0]]is not None and not (isinstance(annot_propose[liste_correspondance[0]], float) and math.isnan(annot_propose[liste_correspondance[0]])):
-                            annotation = annot_propose[liste_correspondance[0]]
-                        for c in i["considerants"]:
-                            if c["numero"] == liste_correspondance[1]:
-                                c["label"].append(annotation) 
+                    find_and_push(liste_correspondance, j, i)
             else:
                 liste_correspondance = fun_correspondance(index_considerant[0])
-                if liste_correspondance is None:
-                    continue
-                annotation = label["Annotation"][liste_correspondance[0]]
-                if annot_propose[liste_correspondance[0]]is not None and not (isinstance(annot_propose[liste_correspondance[0]], float) and math.isnan(annot_propose[liste_correspondance[0]])):
-                    annotation = annot_propose[liste_correspondance[0]]
-
-                for c in i["considerants"]:
-                    if c["numero"] == liste_correspondance[1]:
-                        c["label"].append(annotation)
+                find_and_push(liste_correspondance, j, i)
+                
         else:
-            print(f"Aucune correspondance trouvée pour {i['id']} dans le fichier des labels.", index_considerant)
+            log("Aucune correspondance trouvée pour ", f"{i['id']}", "dans le fichier des labels.", step="main()")
     with open("considerants_avec_labels.json", "w", encoding="utf-8") as f:
         json.dump(json_considerants, f, ensure_ascii=False, indent=2)
     return json_considerants

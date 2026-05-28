@@ -1,6 +1,7 @@
 import math
 from operator import index
 import re
+import unicodedata
 import pandas as pd
 import json
 
@@ -13,7 +14,7 @@ with open('output.json') as f:
     json_considerants = json.load(f)
     
 with open('../../louis_maritaud/data_objet.json') as f:
-    json_label = json.load(f)
+    json_label_maritaud = json.load(f)
     
 """
 # @brief
@@ -81,6 +82,34 @@ def push_label(num_considerant, fichier, annotation):
             c["label"].append(annotation)
             log(f"ajout de annotation pour le considerant {num_considerant}: {annotation}", step="push_label()")
 
+import re
+import unicodedata
+
+def clean_annot(annotation):
+    liste_mots = ["procedure", "candidature", "campagne", "operations", "financement", "prealable", "irrecevabilite"]
+    chaine = annotation.strip()
+
+    # Regex : capture "12." + texte
+    match = re.match(r"^\s*(\d+)\.\s*(.*)$", chaine)
+    if not match:
+        return None, None
+
+    numero = match.group(1) + "."
+    texte = match.group(2)
+    # Nettoyage : enlever accents + minuscule
+    texte_sans_accents = unicodedata.normalize("NFD", texte)
+    texte_sans_accents = "".join(
+        c for c in texte_sans_accents if unicodedata.category(c) != "Mn"
+    )
+    texte_clean = texte_sans_accents.lower()
+
+    # Découpe le texte en mots
+    mots = re.findall(r"\w+", texte_clean)
+    # Comparer avec la liste
+    for mot in mots:
+        if mot in liste_mots:
+            return numero+mot
+    return numero+texte_clean
 
 """
 # @brief
@@ -100,11 +129,18 @@ def find_and_push(liste_correspondance, j, i):
         log("correspondance pour", f"{j}: {liste_correspondance}", step="find_and_push()")
         annotation = label["Annotation"][liste_correspondance[0]]
         if annot_propose[liste_correspondance[0]]is not None and not (isinstance(annot_propose[liste_correspondance[0]], float) and math.isnan(annot_propose[liste_correspondance[0]])):
-            annotation = annot_propose[liste_correspondance[0]]
+            annotation2 = clean_annot(annot_propose[liste_correspondance[0]])
+        annotation = clean_annot(annotation)
+        if annotation is None:
+            annotation = "error"
         log("correspondance annotation", f'{j}: {annotation}', step="find_and_push()")
         push_label(liste_correspondance[1], i, annotation)
 
+def label_super_object(texte):
+    for i in json_label_maritaud:
+        print(i)
 
+#print(label_super_object("Considérant qu'il résulte de ce qui précède que la diffusion de ces tracts"))
 """
 # @brief
 # on boucle sur un element de json_considerant
@@ -117,9 +153,10 @@ def find_and_push(liste_correspondance, j, i):
 def main() :
     print("Début de l'extraction des labels pour les considerants ...")
     for i in json_considerants:
+        # traitement des output.json
         #liste des index 
         index_considerant = find_label(i["id"]) # ex : [2, 3]
-        log("index_considerant pour", f"{i['id']}: {index_considerant}", step="main()")
+        log("-------------\n index_considerant pour", f"{i['id']}: {index_considerant}", step="main()")
         if index_considerant is not None:
             
             if len(index_considerant) > 1:
@@ -129,9 +166,11 @@ def main() :
             else:
                 liste_correspondance = fun_correspondance(index_considerant[0])
                 find_and_push(liste_correspondance, j, i)
-                
         else:
             log("Aucune correspondance trouvée pour ", f"{i['id']}", "dans le fichier des labels.", step="main()")
+        
+        # traitement de super_object.json 
+        
     with open("considerants_avec_labels.json", "w", encoding="utf-8") as f:
         json.dump(json_considerants, f, ensure_ascii=False, indent=2)
     return json_considerants

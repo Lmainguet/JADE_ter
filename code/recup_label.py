@@ -92,7 +92,7 @@ def clean_annot(annotation):
     # Regex : capture "12." + texte
     match = re.match(r"^\s*(\d+)\.\s*(.*)$", chaine)
     if not match:
-        return None, None
+        return "error"
 
     numero = match.group(1) + "."
     texte = match.group(2)
@@ -108,7 +108,12 @@ def clean_annot(annotation):
     # Comparer avec la liste
     for mot in mots:
         if mot in liste_mots:
-            return numero+mot
+            #probleme d'ecriture de campagne, parfois campagne tout seul parfois avec plusiuers num diff
+            if mot.startswith("campagne") and numero == "5.":
+                return numero+" "+"campagne : pressions et manœuvres"
+            if mot.startswith("campagne") and numero == "4.":
+                return numero+" "+"campagne : propagande"
+            return numero+" "+mot
     return numero+texte_clean
 
 """
@@ -127,12 +132,16 @@ def find_and_push(liste_correspondance, j, i):
     
     if liste_correspondance is not None:
         log("correspondance pour", f"{j}: {liste_correspondance}", step="find_and_push()")
-        annotation = label["Annotation"][liste_correspondance[0]]
-        if annot_propose[liste_correspondance[0]]is not None and not (isinstance(annot_propose[liste_correspondance[0]], float) and math.isnan(annot_propose[liste_correspondance[0]])):
-            annotation2 = clean_annot(annot_propose[liste_correspondance[0]])
-        annotation = clean_annot(annotation)
-        if annotation is None:
+        if label["Vérification humaine"][liste_correspondance[0]]=="Non":
             annotation = "error"
+        else:
+            annotation = label["Annotation"][liste_correspondance[0]]
+            if annot_propose[liste_correspondance[0]]is not None and not (isinstance(annot_propose[liste_correspondance[0]], float) and math.isnan(annot_propose[liste_correspondance[0]])):
+                annotation2 = clean_annot(annot_propose[liste_correspondance[0]])
+                print("annotation2", annotation2, j, i)
+            annotation = clean_annot(annotation)
+            if annotation is None:
+                annotation = "error"
         log("correspondance annotation", f'{j}: {annotation}', step="find_and_push()")
         push_label(liste_correspondance[1], i, annotation)
 

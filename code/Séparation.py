@@ -30,8 +30,15 @@ for nom, idx in [("train.json", tr_idx), ("dev.json", reste_idx[dev_idx]), ("tes
         donnees = X[idx].tolist() + (rare if nom == "train.json" else [])
         json.dump(donnees, f, ensure_ascii=False, indent=2)
 
-# Affichage
-print(f"Train: {len(tr_idx)} | Dev: {len(dev_idx)} | Test: {len(ts_idx)}")
+#Extraction et sauvegarde des textes vides
+data_a_predire = [
+    {"doc_id": d["id"], "numero": c["numero"], "text": c["text"]}
+    for d in data for c in d.get("considerants", [])
+    if not c.get("label") or c["label"][0] in EXCLURE or not c["label"]
+]
+
+with open("data_a_predire.json", "w", encoding="utf-8") as f:
+    json.dump(data_a_predire, f, ensure_ascii=False, indent=2)
 
 # Comptage
 for nom in ["train.json", "dev.json", "test.json"]:

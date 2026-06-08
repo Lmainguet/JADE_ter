@@ -1,0 +1,81 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   /* aligne verticalement */
+    margin-bottom: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.info-btn img {
+    width: 30px;           /* taille de l’icône */
+    height: 30px;
+    cursor: pointer;
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+}
+
+.info-btn img:hover {
+    opacity: 1;
+}
+
+.info-modal {
+    display: none; 
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.4);
+    justify-content: right;
+    z-index: 999;
+}
+
+.info-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+
+body {
+    font-family: "Inter", "Segoe UI", sans-serif;
+    background: #f5f7fa;
+    padding: 40px;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.label-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.label-buttons form {
+    flex: 1;
+}
+
+.label-buttons button {
+    min-height: 15vh;
+    width: 100%;
+    padding: 20px ;
+    font-size: 1rem;
+    background: #b5cde9;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #d0d7de;
+}

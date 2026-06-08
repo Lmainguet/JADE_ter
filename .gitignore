@@ -7,5 +7,5 @@
 code/venv
 *Zone.Identifier
 Thumbs.db
-/code/final_modele/*
-/code/bert_text_claassifier/*
+/code/Test_modele/final_modele/*
+/code/Test_modele/bert_text_claassifier/*

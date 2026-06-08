@@ -1,0 +1,951 @@
+2026-06-08 14:48:54,614 - __main__ - INFO - -- before_training.py -- 
+Début de la création du dictionnaire des considérants à partir des fichiers XML dans ../documents/AN
+2026-06-08 14:48:54,621 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN
+2026-06-08 14:48:54,849 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1958
+2026-06-08 14:48:54,875 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1958/enquete
+2026-06-08 14:48:54,886 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1958/irrecevabilite
+2026-06-08 14:48:55,772 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1959
+2026-06-08 14:48:55,800 - __main__ - ERROR - Le fichier CONSTEXT000017664929_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:55,800 - __main__ - ERROR - Le fichier CONSTEXT000017664929_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:55,838 - __main__ - ERROR - Le fichier CONSTEXT000017664929_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:55,838 - __main__ - ERROR - Le fichier CONSTEXT000017664937_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:55,838 - __main__ - ERROR - Le fichier CONSTEXT000017664937_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:55,874 - __main__ - ERROR - Le fichier CONSTEXT000017664937_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:55,874 - __main__ - ERROR - Le fichier CONSTEXT000017664953_annot - RR - DIVERGENT.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:55,914 - __main__ - ERROR - Le fichier CONSTEXT000017664953_annot_PV - DIVERGENT.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:55,914 - __main__ - ERROR - Le fichier CONSTEXT000017665030_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:55,915 - __main__ - ERROR - Le fichier CONSTEXT000017665030_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:55,959 - __main__ - ERROR - Le fichier CONSTEXT000017665030_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:55,959 - __main__ - ERROR - Le fichier CONSTEXT000017665126_annot - RR - DIVERGENT.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:55,995 - __main__ - ERROR - Le fichier CONSTEXT000017665126_annot_PV - DIVERGENT.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:56,005 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1959/enquete
+2026-06-08 14:48:56,016 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1959/non-lieu-a-statuer
+2026-06-08 14:48:59,095 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1960
+2026-06-08 14:48:59,170 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1961
+2026-06-08 14:48:59,223 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1962
+2026-06-08 14:48:59,265 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1963
+2026-06-08 14:48:59,290 - __main__ - ERROR - Le fichier CONSTEXT000017665151_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,290 - __main__ - ERROR - Le fichier CONSTEXT000017665151_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,336 - __main__ - ERROR - Le fichier CONSTEXT000017665151_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,337 - __main__ - ERROR - Le fichier CONSTEXT000017665158_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,338 - __main__ - ERROR - Le fichier CONSTEXT000017665158_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,384 - __main__ - ERROR - Le fichier CONSTEXT000017665158_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,385 - __main__ - ERROR - Le fichier CONSTEXT000017665160_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,386 - __main__ - ERROR - Le fichier CONSTEXT000017665160_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,426 - __main__ - ERROR - Le fichier CONSTEXT000017665160_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,427 - __main__ - ERROR - Le fichier CONSTEXT000017665169_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,427 - __main__ - ERROR - Le fichier CONSTEXT000017665169_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,469 - __main__ - ERROR - Le fichier CONSTEXT000017665169_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,469 - __main__ - ERROR - Le fichier CONSTEXT000017665174_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,470 - __main__ - ERROR - Le fichier CONSTEXT000017665174_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,511 - __main__ - ERROR - Le fichier CONSTEXT000017665174_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,511 - __main__ - ERROR - Le fichier CONSTEXT000017665220_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,512 - __main__ - ERROR - Le fichier CONSTEXT000017665220_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,552 - __main__ - ERROR - Le fichier CONSTEXT000017665220_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,553 - __main__ - ERROR - Le fichier CONSTEXT000017665225_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,553 - __main__ - ERROR - Le fichier CONSTEXT000017665225_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,593 - __main__ - ERROR - Le fichier CONSTEXT000017665225_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:48:59,600 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1963/enquete
+2026-06-08 14:49:02,486 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1965
+2026-06-08 14:49:02,544 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1967
+2026-06-08 14:49:02,569 - __main__ - ERROR - Le fichier CONSTEXT000017665356_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:02,570 - __main__ - ERROR - Le fichier CONSTEXT000017665356_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:02,603 - __main__ - ERROR - Le fichier CONSTEXT000017665356_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:02,603 - __main__ - ERROR - Le fichier CONSTEXT000017665376_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:02,603 - __main__ - ERROR - Le fichier CONSTEXT000017665376_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:02,637 - __main__ - ERROR - Le fichier CONSTEXT000017665376_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:02,637 - __main__ - ERROR - Le fichier CONSTEXT000017665405_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:02,638 - __main__ - ERROR - Le fichier CONSTEXT000017665405_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:02,673 - __main__ - ERROR - Le fichier CONSTEXT000017665405_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:02,673 - __main__ - ERROR - Le fichier CONSTEXT000017665461_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:02,674 - __main__ - ERROR - Le fichier CONSTEXT000017665461_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:02,717 - __main__ - ERROR - Le fichier CONSTEXT000017665461_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:02,730 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1967/non-lieu-a-statuer
+2026-06-08 14:49:07,590 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1968
+2026-06-08 14:49:07,614 - __main__ - ERROR - Le fichier CONSTEXT000017665483_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:07,615 - __main__ - ERROR - Le fichier CONSTEXT000017665483_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:07,650 - __main__ - ERROR - Le fichier CONSTEXT000017665483_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:07,651 - __main__ - ERROR - Le fichier CONSTEXT000017665568_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:07,651 - __main__ - ERROR - Le fichier CONSTEXT000017665568_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:07,687 - __main__ - ERROR - Le fichier CONSTEXT000017665568_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:07,696 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1968/non-lieu-a-statuer
+2026-06-08 14:49:09,488 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1969
+2026-06-08 14:49:09,545 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1970
+2026-06-08 14:49:09,675 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1973
+2026-06-08 14:49:09,710 - __main__ - ERROR - Le fichier CONSTEXT000017665649_annot - MK.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:09,711 - __main__ - ERROR - Le fichier CONSTEXT000017665649_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:09,752 - __main__ - ERROR - Le fichier CONSTEXT000017665649_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:09,753 - __main__ - ERROR - Le fichier CONSTEXT000017665649_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:09,753 - __main__ - ERROR - Le fichier CONSTEXT000017665669_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:09,754 - __main__ - ERROR - Le fichier CONSTEXT000017665669_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:09,792 - __main__ - ERROR - Le fichier CONSTEXT000017665669_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:09,801 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1973/enquete
+2026-06-08 14:49:09,809 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1973/non-lieu-a-statuer
+2026-06-08 14:49:11,607 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1974
+2026-06-08 14:49:11,657 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1976
+2026-06-08 14:49:11,767 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1977
+2026-06-08 14:49:11,841 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1978
+2026-06-08 14:49:11,889 - __main__ - ERROR - Le fichier CONSTEXT000017665792_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:11,890 - __main__ - ERROR - Le fichier CONSTEXT000017665792_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:11,929 - __main__ - ERROR - Le fichier CONSTEXT000017665792_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:11,930 - __main__ - ERROR - Le fichier CONSTEXT000017665814_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:11,930 - __main__ - ERROR - Le fichier CONSTEXT000017665814_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:11,968 - __main__ - ERROR - Le fichier CONSTEXT000017665814_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:11,968 - __main__ - ERROR - Le fichier CONSTEXT000017665819_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:11,969 - __main__ - ERROR - Le fichier CONSTEXT000017665819_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:12,011 - __main__ - ERROR - Le fichier CONSTEXT000017665819_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:12,011 - __main__ - ERROR - Le fichier CONSTEXT000017665825_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:12,012 - __main__ - ERROR - Le fichier CONSTEXT000017665825_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:12,053 - __main__ - ERROR - Le fichier CONSTEXT000017665825_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:12,054 - __main__ - ERROR - Le fichier CONSTEXT000017665826_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:12,054 - __main__ - ERROR - Le fichier CONSTEXT000017665826_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:12,090 - __main__ - ERROR - Le fichier CONSTEXT000017665826_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:12,102 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1978/enquete
+2026-06-08 14:49:12,112 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1978/irrecevabilite
+2026-06-08 14:49:12,121 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1978/non-lieu-a-statuer
+2026-06-08 14:49:14,126 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1981
+2026-06-08 14:49:14,159 - __main__ - ERROR - Le fichier CONSTEXT000017665930_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,160 - __main__ - ERROR - Le fichier CONSTEXT000017665930_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,197 - __main__ - ERROR - Le fichier CONSTEXT000017665930_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,197 - __main__ - ERROR - Le fichier CONSTEXT000017665942_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,198 - __main__ - ERROR - Le fichier CONSTEXT000017665942_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,222 - __main__ - ERROR - Le fichier CONSTEXT000017665942_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,223 - __main__ - ERROR - Le fichier CONSTEXT000017665946_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,223 - __main__ - ERROR - Le fichier CONSTEXT000017665946_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,252 - __main__ - ERROR - Le fichier CONSTEXT000017665946_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,253 - __main__ - ERROR - Le fichier CONSTEXT000017665948_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,253 - __main__ - ERROR - Le fichier CONSTEXT000017665948_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,290 - __main__ - ERROR - Le fichier CONSTEXT000017665948_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,300 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1981/enquete
+2026-06-08 14:49:14,308 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1981/non-lieu-a-statuer
+2026-06-08 14:49:14,361 - __main__ - ERROR - Le fichier CONSTEXT000017665895_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,399 - __main__ - ERROR - Le fichier CONSTEXT000017665896_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,447 - __main__ - ERROR - Le fichier CONSTEXT000017665897_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,496 - __main__ - ERROR - Le fichier CONSTEXT000017665898_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,541 - __main__ - ERROR - Le fichier CONSTEXT000017665899_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,583 - __main__ - ERROR - Le fichier CONSTEXT000017665900_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,619 - __main__ - ERROR - Le fichier CONSTEXT000017665902_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,659 - __main__ - ERROR - Le fichier CONSTEXT000017665903_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,699 - __main__ - ERROR - Le fichier CONSTEXT000017665905_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,742 - __main__ - ERROR - Le fichier CONSTEXT000017665906_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,785 - __main__ - ERROR - Le fichier CONSTEXT000017665907_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,829 - __main__ - ERROR - Le fichier CONSTEXT000017665908_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,866 - __main__ - ERROR - Le fichier CONSTEXT000017665909_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,885 - __main__ - ERROR - Le fichier CONSTEXT000017665910_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,922 - __main__ - ERROR - Le fichier CONSTEXT000017665911_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,958 - __main__ - ERROR - Le fichier CONSTEXT000017665912_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:14,999 - __main__ - ERROR - Le fichier CONSTEXT000017665913_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,035 - __main__ - ERROR - Le fichier CONSTEXT000017665914_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,072 - __main__ - ERROR - Le fichier CONSTEXT000017665915_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,112 - __main__ - ERROR - Le fichier CONSTEXT000017665916_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,150 - __main__ - ERROR - Le fichier CONSTEXT000017665917_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,188 - __main__ - ERROR - Le fichier CONSTEXT000017665918_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,233 - __main__ - ERROR - Le fichier CONSTEXT000017665919_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,277 - __main__ - ERROR - Le fichier CONSTEXT000017665920_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,315 - __main__ - ERROR - Le fichier CONSTEXT000017665921_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,354 - __main__ - ERROR - Le fichier CONSTEXT000017665922_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,393 - __main__ - ERROR - Le fichier CONSTEXT000017665923_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,416 - __main__ - ERROR - Le fichier CONSTEXT000017665924_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,461 - __main__ - ERROR - Le fichier CONSTEXT000017665925_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,500 - __main__ - ERROR - Le fichier CONSTEXT000017665926_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,537 - __main__ - ERROR - Le fichier CONSTEXT000017665927_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,573 - __main__ - ERROR - Le fichier CONSTEXT000017665928_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,613 - __main__ - ERROR - Le fichier CONSTEXT000017665931_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,658 - __main__ - ERROR - Le fichier CONSTEXT000017665932_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,701 - __main__ - ERROR - Le fichier CONSTEXT000017665933_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,746 - __main__ - ERROR - Le fichier CONSTEXT000017665934_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,788 - __main__ - ERROR - Le fichier CONSTEXT000017665935_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,822 - __main__ - ERROR - Le fichier CONSTEXT000017665936_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,852 - __main__ - ERROR - Le fichier CONSTEXT000017665937_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,885 - __main__ - ERROR - Le fichier CONSTEXT000017665938_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,913 - __main__ - ERROR - Le fichier CONSTEXT000017665939_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,948 - __main__ - ERROR - Le fichier CONSTEXT000017665940_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:15,986 - __main__ - ERROR - Le fichier CONSTEXT000017665941_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,022 - __main__ - ERROR - Le fichier CONSTEXT000017665943_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,059 - __main__ - ERROR - Le fichier CONSTEXT000017665944_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,096 - __main__ - ERROR - Le fichier CONSTEXT000017665945_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,127 - __main__ - ERROR - Le fichier CONSTEXT000017665947_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,161 - __main__ - ERROR - Le fichier CONSTEXT000017665949_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,193 - __main__ - ERROR - Le fichier CONSTEXT000017665950_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,201 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1982
+2026-06-08 14:49:16,243 - __main__ - ERROR - Le fichier CONSTEXT000017667340_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,274 - __main__ - ERROR - Le fichier CONSTEXT000017667341_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,282 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1984
+2026-06-08 14:49:16,330 - __main__ - ERROR - Le fichier CONSTEXT000017667635_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,337 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1986
+2026-06-08 14:49:16,366 - __main__ - ERROR - Le fichier CONSTEXT000017666924_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,401 - __main__ - ERROR - Le fichier CONSTEXT000017666924_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,401 - __main__ - ERROR - Le fichier CONSTEXT000017666924_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,402 - __main__ - ERROR - Le fichier CONSTEXT000017667350_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,435 - __main__ - ERROR - Le fichier CONSTEXT000017667350_annot_ VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,436 - __main__ - ERROR - Le fichier CONSTEXT000017667350_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:16,443 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1986/non-lieu-a-statuer
+2026-06-08 14:49:19,277 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1987
+2026-06-08 14:49:19,290 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1987/rectification-d-erreur-materielle
+2026-06-08 14:49:19,294 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1988
+2026-06-08 14:49:19,316 - __main__ - ERROR - Le fichier CONSTEXT000017667645_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,317 - __main__ - ERROR - Le fichier CONSTEXT000017667645_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,351 - __main__ - ERROR - Le fichier CONSTEXT000017667645_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,351 - __main__ - ERROR - Le fichier CONSTEXT000017667646_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,383 - __main__ - ERROR - Le fichier CONSTEXT000017667646_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,384 - __main__ - ERROR - Le fichier CONSTEXT000017667646_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,384 - __main__ - ERROR - Le fichier CONSTEXT000017667657_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,407 - __main__ - ERROR - Le fichier CONSTEXT000017667657_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,408 - __main__ - ERROR - Le fichier CONSTEXT000017667657_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,408 - __main__ - ERROR - Le fichier CONSTEXT000017667715_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,409 - __main__ - ERROR - Le fichier CONSTEXT000017667715_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,439 - __main__ - ERROR - Le fichier CONSTEXT000017667715_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,440 - __main__ - ERROR - Le fichier CONSTEXT000017667716_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,440 - __main__ - ERROR - Le fichier CONSTEXT000017667716_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,461 - __main__ - ERROR - Le fichier CONSTEXT000017667716_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,461 - __main__ - ERROR - Le fichier CONSTEXT000017667818_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,497 - __main__ - ERROR - Le fichier CONSTEXT000017667818_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,498 - __main__ - ERROR - Le fichier CONSTEXT000017667818_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,498 - __main__ - ERROR - Le fichier CONSTEXT000017667821_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,499 - __main__ - ERROR - Le fichier CONSTEXT000017667821_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,521 - __main__ - ERROR - Le fichier CONSTEXT000017667821_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:19,528 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1988/non-lieu-a-statuer
+2026-06-08 14:49:22,102 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1989
+2026-06-08 14:49:22,250 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1990
+2026-06-08 14:49:22,311 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1991
+2026-06-08 14:49:22,375 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1992
+2026-06-08 14:49:22,397 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1992/ineligibilite
+2026-06-08 14:49:22,455 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1993
+2026-06-08 14:49:22,501 - __main__ - ERROR - Le fichier CONSTEXT000017667730_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:22,501 - __main__ - ERROR - Le fichier CONSTEXT000017667730_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:22,524 - __main__ - ERROR - Le fichier CONSTEXT000017667730_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:22,524 - __main__ - ERROR - Le fichier CONSTEXT000017667844_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:22,561 - __main__ - ERROR - Le fichier CONSTEXT000017667844_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:22,562 - __main__ - ERROR - Le fichier CONSTEXT000017667844_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:22,739 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1993/ineligibilite
+2026-06-08 14:49:22,749 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1993/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:22,759 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1993/non-lieu-a-statuer
+2026-06-08 14:49:22,772 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1993/rectification-d-erreur-materielle
+2026-06-08 14:49:29,137 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1994
+2026-06-08 14:49:29,150 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1994/ineligibilite
+2026-06-08 14:49:29,311 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1995
+2026-06-08 14:49:29,409 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1996
+2026-06-08 14:49:29,428 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1996/ineligibilite
+2026-06-08 14:49:29,750 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1997
+2026-06-08 14:49:29,772 - __main__ - ERROR - Le fichier CONSTEXT000017666806_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:29,772 - __main__ - ERROR - Le fichier CONSTEXT000017666806_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:29,815 - __main__ - ERROR - Le fichier CONSTEXT000017666806_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:29,816 - __main__ - ERROR - Le fichier CONSTEXT000017666856_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:29,817 - __main__ - ERROR - Le fichier CONSTEXT000017666856_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:29,858 - __main__ - ERROR - Le fichier CONSTEXT000017666856_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:29,910 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1997/ineligibilite
+2026-06-08 14:49:33,875 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1998
+2026-06-08 14:49:33,943 - __main__ - ERROR - Le fichier CONSTEXT000017667910_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:33,943 - __main__ - ERROR - Le fichier CONSTEXT000017667910_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:33,994 - __main__ - ERROR - Le fichier CONSTEXT000017667910_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:34,060 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1998/ineligibilite
+2026-06-08 14:49:34,069 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1998/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:34,080 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1998/non-lieu-a-statuer
+2026-06-08 14:49:34,089 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1998/null
+2026-06-08 14:49:34,098 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1998/rectification-d-erreur-materielle
+2026-06-08 14:49:35,396 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1999
+2026-06-08 14:49:35,423 - __main__ - ERROR - Le fichier CONSTEXT000017667949_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,424 - __main__ - ERROR - Le fichier CONSTEXT000017667949_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,456 - __main__ - ERROR - Le fichier CONSTEXT000017667949_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,466 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1999/ineligibilite
+2026-06-08 14:49:35,476 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/1999/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:35,557 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2000
+2026-06-08 14:49:35,571 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2000/ineligibilite
+2026-06-08 14:49:35,695 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2001
+2026-06-08 14:49:35,715 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2001/ineligibilite
+2026-06-08 14:49:35,814 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2002
+2026-06-08 14:49:35,846 - __main__ - ERROR - Le fichier .DS_Store n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,846 - __main__ - ERROR - Le fichier CONSTEXT000017664433_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,847 - __main__ - ERROR - Le fichier CONSTEXT000017664433_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,847 - __main__ - ERROR - Le fichier CONSTEXT000017664433_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,847 - __main__ - ERROR - Le fichier CONSTEXT000017664433_annot - VALIDE - AB.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,847 - __main__ - ERROR - Le fichier CONSTEXT000017664433_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,884 - __main__ - ERROR - Le fichier CONSTEXT000017664444_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,885 - __main__ - ERROR - Le fichier CONSTEXT000017664444_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,886 - __main__ - ERROR - Le fichier CONSTEXT000017664444_annot AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,926 - __main__ - ERROR - Le fichier CONSTEXT000017664444_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,927 - __main__ - ERROR - Le fichier CONSTEXT000017664506_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,927 - __main__ - ERROR - Le fichier CONSTEXT000017664506_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,928 - __main__ - ERROR - Le fichier CONSTEXT000017664506_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,963 - __main__ - ERROR - Le fichier CONSTEXT000017664522_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,963 - __main__ - ERROR - Le fichier CONSTEXT000017664522_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,964 - __main__ - ERROR - Le fichier CONSTEXT000017664522_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:35,964 - __main__ - ERROR - Le fichier CONSTEXT000017664522_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,012 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2002/ineligibilite
+2026-06-08 14:49:36,023 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2002/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:36,032 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2002/non-lieu-a-statuer
+2026-06-08 14:49:36,046 - __main__ - ERROR - Le fichier .DS_Store n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,047 - __main__ - ERROR - Le fichier CONSTEXT000017664426_annot - AS (EC).xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,047 - __main__ - ERROR - Le fichier CONSTEXT000017664426_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,047 - __main__ - ERROR - Le fichier CONSTEXT000017664426_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,090 - __main__ - ERROR - Le fichier CONSTEXT000017664427_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,091 - __main__ - ERROR - Le fichier CONSTEXT000017664427_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,092 - __main__ - ERROR - Le fichier CONSTEXT000017664427_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,133 - __main__ - ERROR - Le fichier CONSTEXT000017664428_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,134 - __main__ - ERROR - Le fichier CONSTEXT000017664428_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,134 - __main__ - ERROR - Le fichier CONSTEXT000017664428_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,181 - __main__ - ERROR - Le fichier CONSTEXT000017664429_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,181 - __main__ - ERROR - Le fichier CONSTEXT000017664429_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,182 - __main__ - ERROR - Le fichier CONSTEXT000017664429_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,183 - __main__ - ERROR - Le fichier CONSTEXT000017664429_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,224 - __main__ - ERROR - Le fichier CONSTEXT000017664430_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,224 - __main__ - ERROR - Le fichier CONSTEXT000017664430_annot - EC.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,225 - __main__ - ERROR - Le fichier CONSTEXT000017664430_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,225 - __main__ - ERROR - Le fichier CONSTEXT000017664430_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,226 - __main__ - ERROR - Le fichier CONSTEXT000017664430_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,261 - __main__ - ERROR - Le fichier CONSTEXT000017664431_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,262 - __main__ - ERROR - Le fichier CONSTEXT000017664431_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,262 - __main__ - ERROR - Le fichier CONSTEXT000017664431_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,263 - __main__ - ERROR - Le fichier CONSTEXT000017664431_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,299 - __main__ - ERROR - Le fichier CONSTEXT000017664432_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,300 - __main__ - ERROR - Le fichier CONSTEXT000017664432_annot - AS Vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,300 - __main__ - ERROR - Le fichier CONSTEXT000017664432_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,301 - __main__ - ERROR - Le fichier CONSTEXT000017664432_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,302 - __main__ - ERROR - Le fichier CONSTEXT000017664432_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,346 - __main__ - ERROR - Le fichier CONSTEXT000017664434_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,347 - __main__ - ERROR - Le fichier CONSTEXT000017664434_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,347 - __main__ - ERROR - Le fichier CONSTEXT000017664434_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,348 - __main__ - ERROR - Le fichier CONSTEXT000017664434_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,381 - __main__ - ERROR - Le fichier CONSTEXT000017664435_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,382 - __main__ - ERROR - Le fichier CONSTEXT000017664435_annot - AS Vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,383 - __main__ - ERROR - Le fichier CONSTEXT000017664435_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,383 - __main__ - ERROR - Le fichier CONSTEXT000017664435_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,384 - __main__ - ERROR - Le fichier CONSTEXT000017664435_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,428 - __main__ - ERROR - Le fichier CONSTEXT000017664436_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,429 - __main__ - ERROR - Le fichier CONSTEXT000017664436_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,429 - __main__ - ERROR - Le fichier CONSTEXT000017664436_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,430 - __main__ - ERROR - Le fichier CONSTEXT000017664436_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,430 - __main__ - ERROR - Le fichier CONSTEXT000017664436_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,473 - __main__ - ERROR - Le fichier CONSTEXT000017664437_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,474 - __main__ - ERROR - Le fichier CONSTEXT000017664437_annot - AS Vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,474 - __main__ - ERROR - Le fichier CONSTEXT000017664437_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,475 - __main__ - ERROR - Le fichier CONSTEXT000017664437_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,476 - __main__ - ERROR - Le fichier CONSTEXT000017664437_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,522 - __main__ - ERROR - Le fichier CONSTEXT000017664438_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,523 - __main__ - ERROR - Le fichier CONSTEXT000017664438_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,524 - __main__ - ERROR - Le fichier CONSTEXT000017664438_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,524 - __main__ - ERROR - Le fichier CONSTEXT000017664438_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,572 - __main__ - ERROR - Le fichier CONSTEXT000017664439_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,572 - __main__ - ERROR - Le fichier CONSTEXT000017664439_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,573 - __main__ - ERROR - Le fichier CONSTEXT000017664439_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,576 - __main__ - ERROR - Le fichier CONSTEXT000017664439_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,577 - __main__ - ERROR - Le fichier CONSTEXT000017664439_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,611 - __main__ - ERROR - Le fichier CONSTEXT000017664440_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,611 - __main__ - ERROR - Le fichier CONSTEXT000017664440_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,611 - __main__ - ERROR - Le fichier CONSTEXT000017664440_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,611 - __main__ - ERROR - Le fichier CONSTEXT000017664440_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,656 - __main__ - ERROR - Le fichier CONSTEXT000017664441_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,656 - __main__ - ERROR - Le fichier CONSTEXT000017664441_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,657 - __main__ - ERROR - Le fichier CONSTEXT000017664441_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,657 - __main__ - ERROR - Le fichier CONSTEXT000017664441_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,658 - __main__ - ERROR - Le fichier CONSTEXT000017664441_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,701 - __main__ - ERROR - Le fichier CONSTEXT000017664442_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,701 - __main__ - ERROR - Le fichier CONSTEXT000017664442_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,702 - __main__ - ERROR - Le fichier CONSTEXT000017664442_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,702 - __main__ - ERROR - Le fichier CONSTEXT000017664442_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,703 - __main__ - ERROR - Le fichier CONSTEXT000017664442_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,747 - __main__ - ERROR - Le fichier CONSTEXT000017664443_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,747 - __main__ - ERROR - Le fichier CONSTEXT000017664443_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,748 - __main__ - ERROR - Le fichier CONSTEXT000017664443_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,749 - __main__ - ERROR - Le fichier CONSTEXT000017664443_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,750 - __main__ - ERROR - Le fichier CONSTEXT000017664443_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,785 - __main__ - ERROR - Le fichier CONSTEXT000017664445_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,786 - __main__ - ERROR - Le fichier CONSTEXT000017664445_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,786 - __main__ - ERROR - Le fichier CONSTEXT000017664445_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,786 - __main__ - ERROR - Le fichier CONSTEXT000017664445_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,787 - __main__ - ERROR - Le fichier CONSTEXT000017664445_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,813 - __main__ - ERROR - Le fichier CONSTEXT000017664446_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,813 - __main__ - ERROR - Le fichier CONSTEXT000017664446_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,814 - __main__ - ERROR - Le fichier CONSTEXT000017664446_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,814 - __main__ - ERROR - Le fichier CONSTEXT000017664446_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,853 - __main__ - ERROR - Le fichier CONSTEXT000017664447_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,853 - __main__ - ERROR - Le fichier CONSTEXT000017664447_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,854 - __main__ - ERROR - Le fichier CONSTEXT000017664447_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,854 - __main__ - ERROR - Le fichier CONSTEXT000017664447_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,892 - __main__ - ERROR - Le fichier CONSTEXT000017664448_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,892 - __main__ - ERROR - Le fichier CONSTEXT000017664448_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,892 - __main__ - ERROR - Le fichier CONSTEXT000017664448_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,893 - __main__ - ERROR - Le fichier CONSTEXT000017664448_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,933 - __main__ - ERROR - Le fichier CONSTEXT000017664449_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,934 - __main__ - ERROR - Le fichier CONSTEXT000017664449_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,934 - __main__ - ERROR - Le fichier CONSTEXT000017664449_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,935 - __main__ - ERROR - Le fichier CONSTEXT000017664449_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,977 - __main__ - ERROR - Le fichier CONSTEXT000017664450_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,979 - __main__ - ERROR - Le fichier CONSTEXT000017664450_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,979 - __main__ - ERROR - Le fichier CONSTEXT000017664450_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:36,980 - __main__ - ERROR - Le fichier CONSTEXT000017664450_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,023 - __main__ - ERROR - Le fichier CONSTEXT000017664451_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,023 - __main__ - ERROR - Le fichier CONSTEXT000017664451_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,024 - __main__ - ERROR - Le fichier CONSTEXT000017664451_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,024 - __main__ - ERROR - Le fichier CONSTEXT000017664451_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,067 - __main__ - ERROR - Le fichier CONSTEXT000017664460_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,068 - __main__ - ERROR - Le fichier CONSTEXT000017664460_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,068 - __main__ - ERROR - Le fichier CONSTEXT000017664460_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,068 - __main__ - ERROR - Le fichier CONSTEXT000017664460_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,105 - __main__ - ERROR - Le fichier CONSTEXT000017664461_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,106 - __main__ - ERROR - Le fichier CONSTEXT000017664461_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,106 - __main__ - ERROR - Le fichier CONSTEXT000017664461_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,106 - __main__ - ERROR - Le fichier CONSTEXT000017664461_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,134 - __main__ - ERROR - Le fichier CONSTEXT000017664462_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,135 - __main__ - ERROR - Le fichier CONSTEXT000017664462_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,135 - __main__ - ERROR - Le fichier CONSTEXT000017664462_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,136 - __main__ - ERROR - Le fichier CONSTEXT000017664462_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,166 - __main__ - ERROR - Le fichier CONSTEXT000017664463_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,167 - __main__ - ERROR - Le fichier CONSTEXT000017664463_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,167 - __main__ - ERROR - Le fichier CONSTEXT000017664463_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,168 - __main__ - ERROR - Le fichier CONSTEXT000017664463_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,169 - __main__ - ERROR - Le fichier CONSTEXT000017664463_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,195 - __main__ - ERROR - Le fichier CONSTEXT000017664464_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,195 - __main__ - ERROR - Le fichier CONSTEXT000017664464_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,196 - __main__ - ERROR - Le fichier CONSTEXT000017664464_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,196 - __main__ - ERROR - Le fichier CONSTEXT000017664464_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,196 - __main__ - ERROR - Le fichier CONSTEXT000017664464_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,230 - __main__ - ERROR - Le fichier CONSTEXT000017664465_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,230 - __main__ - ERROR - Le fichier CONSTEXT000017664465_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,231 - __main__ - ERROR - Le fichier CONSTEXT000017664465_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,231 - __main__ - ERROR - Le fichier CONSTEXT000017664465_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,232 - __main__ - ERROR - Le fichier CONSTEXT000017664465_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,269 - __main__ - ERROR - Le fichier CONSTEXT000017664466_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,270 - __main__ - ERROR - Le fichier CONSTEXT000017664466_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,270 - __main__ - ERROR - Le fichier CONSTEXT000017664466_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,271 - __main__ - ERROR - Le fichier CONSTEXT000017664466_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,271 - __main__ - ERROR - Le fichier CONSTEXT000017664466_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,311 - __main__ - ERROR - Le fichier CONSTEXT000017664467_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,311 - __main__ - ERROR - Le fichier CONSTEXT000017664467_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,311 - __main__ - ERROR - Le fichier CONSTEXT000017664467_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,312 - __main__ - ERROR - Le fichier CONSTEXT000017664467_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,312 - __main__ - ERROR - Le fichier CONSTEXT000017664467_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,350 - __main__ - ERROR - Le fichier CONSTEXT000017664468_annot - AH (EC).xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,351 - __main__ - ERROR - Le fichier CONSTEXT000017664468_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,352 - __main__ - ERROR - Le fichier CONSTEXT000017664468_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,352 - __main__ - ERROR - Le fichier CONSTEXT000017664468_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,390 - __main__ - ERROR - Le fichier CONSTEXT000017664469_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,390 - __main__ - ERROR - Le fichier CONSTEXT000017664469_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,390 - __main__ - ERROR - Le fichier CONSTEXT000017664469_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,391 - __main__ - ERROR - Le fichier CONSTEXT000017664469_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,391 - __main__ - ERROR - Le fichier CONSTEXT000017664469_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,426 - __main__ - ERROR - Le fichier CONSTEXT000017664470_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,427 - __main__ - ERROR - Le fichier CONSTEXT000017664470_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,427 - __main__ - ERROR - Le fichier CONSTEXT000017664470_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,428 - __main__ - ERROR - Le fichier CONSTEXT000017664470_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,428 - __main__ - ERROR - Le fichier CONSTEXT000017664470_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,469 - __main__ - ERROR - Le fichier CONSTEXT000017664471_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,469 - __main__ - ERROR - Le fichier CONSTEXT000017664471_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,470 - __main__ - ERROR - Le fichier CONSTEXT000017664471_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,470 - __main__ - ERROR - Le fichier CONSTEXT000017664471_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,471 - __main__ - ERROR - Le fichier CONSTEXT000017664471_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,505 - __main__ - ERROR - Le fichier CONSTEXT000017664472_annot - AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,506 - __main__ - ERROR - Le fichier CONSTEXT000017664472_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,506 - __main__ - ERROR - Le fichier CONSTEXT000017664472_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,508 - __main__ - ERROR - Le fichier CONSTEXT000017664472_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,508 - __main__ - ERROR - Le fichier CONSTEXT000017664472_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,551 - __main__ - ERROR - Le fichier CONSTEXT000017664473_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,551 - __main__ - ERROR - Le fichier CONSTEXT000017664473_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,552 - __main__ - ERROR - Le fichier CONSTEXT000017664473_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,553 - __main__ - ERROR - Le fichier CONSTEXT000017664473_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,594 - __main__ - ERROR - Le fichier CONSTEXT000017664473_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,594 - __main__ - ERROR - Le fichier CONSTEXT000017664474_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,595 - __main__ - ERROR - Le fichier CONSTEXT000017664474_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,595 - __main__ - ERROR - Le fichier CONSTEXT000017664474_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,595 - __main__ - ERROR - Le fichier CONSTEXT000017664474_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,626 - __main__ - ERROR - Le fichier CONSTEXT000017664474_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,627 - __main__ - ERROR - Le fichier CONSTEXT000017664475_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,627 - __main__ - ERROR - Le fichier CONSTEXT000017664475_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,627 - __main__ - ERROR - Le fichier CONSTEXT000017664475_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,627 - __main__ - ERROR - Le fichier CONSTEXT000017664475_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,665 - __main__ - ERROR - Le fichier CONSTEXT000017664475_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,665 - __main__ - ERROR - Le fichier CONSTEXT000017664476_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,666 - __main__ - ERROR - Le fichier CONSTEXT000017664476_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,666 - __main__ - ERROR - Le fichier CONSTEXT000017664476_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,667 - __main__ - ERROR - Le fichier CONSTEXT000017664476_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,703 - __main__ - ERROR - Le fichier CONSTEXT000017664476_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,703 - __main__ - ERROR - Le fichier CONSTEXT000017664477_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,704 - __main__ - ERROR - Le fichier CONSTEXT000017664477_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,704 - __main__ - ERROR - Le fichier CONSTEXT000017664477_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,704 - __main__ - ERROR - Le fichier CONSTEXT000017664477_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,742 - __main__ - ERROR - Le fichier CONSTEXT000017664477_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,743 - __main__ - ERROR - Le fichier CONSTEXT000017664478_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,743 - __main__ - ERROR - Le fichier CONSTEXT000017664478_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,743 - __main__ - ERROR - Le fichier CONSTEXT000017664478_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,743 - __main__ - ERROR - Le fichier CONSTEXT000017664478_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,781 - __main__ - ERROR - Le fichier CONSTEXT000017664478_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,782 - __main__ - ERROR - Le fichier CONSTEXT000017664479_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,782 - __main__ - ERROR - Le fichier CONSTEXT000017664479_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,782 - __main__ - ERROR - Le fichier CONSTEXT000017664479_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,783 - __main__ - ERROR - Le fichier CONSTEXT000017664479_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,824 - __main__ - ERROR - Le fichier CONSTEXT000017664479_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,824 - __main__ - ERROR - Le fichier CONSTEXT000017664480_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,825 - __main__ - ERROR - Le fichier CONSTEXT000017664480_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,826 - __main__ - ERROR - Le fichier CONSTEXT000017664480_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,826 - __main__ - ERROR - Le fichier CONSTEXT000017664480_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,870 - __main__ - ERROR - Le fichier CONSTEXT000017664480_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,870 - __main__ - ERROR - Le fichier CONSTEXT000017664481_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,871 - __main__ - ERROR - Le fichier CONSTEXT000017664481_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,872 - __main__ - ERROR - Le fichier CONSTEXT000017664481_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,873 - __main__ - ERROR - Le fichier CONSTEXT000017664481_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,917 - __main__ - ERROR - Le fichier CONSTEXT000017664481_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,919 - __main__ - ERROR - Le fichier CONSTEXT000017664482_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,919 - __main__ - ERROR - Le fichier CONSTEXT000017664482_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,920 - __main__ - ERROR - Le fichier CONSTEXT000017664482_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,920 - __main__ - ERROR - Le fichier CONSTEXT000017664482_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,959 - __main__ - ERROR - Le fichier CONSTEXT000017664482_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,960 - __main__ - ERROR - Le fichier CONSTEXT000017664483_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,960 - __main__ - ERROR - Le fichier CONSTEXT000017664483_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,961 - __main__ - ERROR - Le fichier CONSTEXT000017664483_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,961 - __main__ - ERROR - Le fichier CONSTEXT000017664483_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:37,999 - __main__ - ERROR - Le fichier CONSTEXT000017664483_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,000 - __main__ - ERROR - Le fichier CONSTEXT000017664484_annot - AS VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,000 - __main__ - ERROR - Le fichier CONSTEXT000017664484_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,001 - __main__ - ERROR - Le fichier CONSTEXT000017664484_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,002 - __main__ - ERROR - Le fichier CONSTEXT000017664484_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,035 - __main__ - ERROR - Le fichier CONSTEXT000017664484_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,036 - __main__ - ERROR - Le fichier CONSTEXT000017664485_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,036 - __main__ - ERROR - Le fichier CONSTEXT000017664485_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,037 - __main__ - ERROR - Le fichier CONSTEXT000017664485_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,037 - __main__ - ERROR - Le fichier CONSTEXT000017664485_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,090 - __main__ - ERROR - Le fichier CONSTEXT000017664485_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,090 - __main__ - ERROR - Le fichier CONSTEXT000017664486_annot - (EC_IrregDiv_pas.circ_cons3).xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,091 - __main__ - ERROR - Le fichier CONSTEXT000017664486_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,091 - __main__ - ERROR - Le fichier CONSTEXT000017664486_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,092 - __main__ - ERROR - Le fichier CONSTEXT000017664486_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,127 - __main__ - ERROR - Le fichier CONSTEXT000017664486_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,128 - __main__ - ERROR - Le fichier CONSTEXT000017664486_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,129 - __main__ - ERROR - Le fichier CONSTEXT000017664487_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,130 - __main__ - ERROR - Le fichier CONSTEXT000017664487_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,131 - __main__ - ERROR - Le fichier CONSTEXT000017664487_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,132 - __main__ - ERROR - Le fichier CONSTEXT000017664487_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,165 - __main__ - ERROR - Le fichier CONSTEXT000017664487_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,166 - __main__ - ERROR - Le fichier CONSTEXT000017664488_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,166 - __main__ - ERROR - Le fichier CONSTEXT000017664488_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,166 - __main__ - ERROR - Le fichier CONSTEXT000017664488_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,167 - __main__ - ERROR - Le fichier CONSTEXT000017664488_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,192 - __main__ - ERROR - Le fichier CONSTEXT000017664488_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,192 - __main__ - ERROR - Le fichier CONSTEXT000017664489_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,192 - __main__ - ERROR - Le fichier CONSTEXT000017664489_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,193 - __main__ - ERROR - Le fichier CONSTEXT000017664489_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,193 - __main__ - ERROR - Le fichier CONSTEXT000017664489_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,220 - __main__ - ERROR - Le fichier CONSTEXT000017664489_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,220 - __main__ - ERROR - Le fichier CONSTEXT000017664490_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,220 - __main__ - ERROR - Le fichier CONSTEXT000017664490_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,221 - __main__ - ERROR - Le fichier CONSTEXT000017664490_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,221 - __main__ - ERROR - Le fichier CONSTEXT000017664490_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,247 - __main__ - ERROR - Le fichier CONSTEXT000017664490_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,248 - __main__ - ERROR - Le fichier CONSTEXT000017664491_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,248 - __main__ - ERROR - Le fichier CONSTEXT000017664491_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,248 - __main__ - ERROR - Le fichier CONSTEXT000017664491_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,249 - __main__ - ERROR - Le fichier CONSTEXT000017664491_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,280 - __main__ - ERROR - Le fichier CONSTEXT000017664491_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,281 - __main__ - ERROR - Le fichier CONSTEXT000017664492_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,281 - __main__ - ERROR - Le fichier CONSTEXT000017664492_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,282 - __main__ - ERROR - Le fichier CONSTEXT000017664492_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,282 - __main__ - ERROR - Le fichier CONSTEXT000017664492_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,311 - __main__ - ERROR - Le fichier CONSTEXT000017664492_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,311 - __main__ - ERROR - Le fichier CONSTEXT000017664493_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,311 - __main__ - ERROR - Le fichier CONSTEXT000017664493_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,312 - __main__ - ERROR - Le fichier CONSTEXT000017664493_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,312 - __main__ - ERROR - Le fichier CONSTEXT000017664493_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,351 - __main__ - ERROR - Le fichier CONSTEXT000017664494_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,351 - __main__ - ERROR - Le fichier CONSTEXT000017664494_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,352 - __main__ - ERROR - Le fichier CONSTEXT000017664494_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,352 - __main__ - ERROR - Le fichier CONSTEXT000017664494_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,385 - __main__ - ERROR - Le fichier CONSTEXT000017664495_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,386 - __main__ - ERROR - Le fichier CONSTEXT000017664495_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,386 - __main__ - ERROR - Le fichier CONSTEXT000017664495_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,386 - __main__ - ERROR - Le fichier CONSTEXT000017664495_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,421 - __main__ - ERROR - Le fichier CONSTEXT000017664495_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,422 - __main__ - ERROR - Le fichier CONSTEXT000017664496_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,422 - __main__ - ERROR - Le fichier CONSTEXT000017664496_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,422 - __main__ - ERROR - Le fichier CONSTEXT000017664496_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,423 - __main__ - ERROR - Le fichier CONSTEXT000017664496_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,445 - __main__ - ERROR - Le fichier CONSTEXT000017664496_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,445 - __main__ - ERROR - Le fichier CONSTEXT000017664496_annot_vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,446 - __main__ - ERROR - Le fichier CONSTEXT000017664497_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,446 - __main__ - ERROR - Le fichier CONSTEXT000017664497_annot - PV Vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,446 - __main__ - ERROR - Le fichier CONSTEXT000017664497_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,447 - __main__ - ERROR - Le fichier CONSTEXT000017664497_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,447 - __main__ - ERROR - Le fichier CONSTEXT000017664497_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,478 - __main__ - ERROR - Le fichier CONSTEXT000017664497_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,479 - __main__ - ERROR - Le fichier CONSTEXT000017664498_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,479 - __main__ - ERROR - Le fichier CONSTEXT000017664498_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,479 - __main__ - ERROR - Le fichier CONSTEXT000017664498_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,480 - __main__ - ERROR - Le fichier CONSTEXT000017664498_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,508 - __main__ - ERROR - Le fichier CONSTEXT000017664498_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,509 - __main__ - ERROR - Le fichier CONSTEXT000017664499_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,509 - __main__ - ERROR - Le fichier CONSTEXT000017664499_annot - PV Vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,509 - __main__ - ERROR - Le fichier CONSTEXT000017664499_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,510 - __main__ - ERROR - Le fichier CONSTEXT000017664499_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,510 - __main__ - ERROR - Le fichier CONSTEXT000017664499_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,545 - __main__ - ERROR - Le fichier CONSTEXT000017664499_annot_AH.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,545 - __main__ - ERROR - Le fichier CONSTEXT000017664500_annot - AS (EC Renv Jurisp).xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,546 - __main__ - ERROR - Le fichier CONSTEXT000017664500_annot - PV Vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,546 - __main__ - ERROR - Le fichier CONSTEXT000017664500_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,547 - __main__ - ERROR - Le fichier CONSTEXT000017664500_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,576 - __main__ - ERROR - Le fichier CONSTEXT000017664501_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,576 - __main__ - ERROR - Le fichier CONSTEXT000017664501_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,577 - __main__ - ERROR - Le fichier CONSTEXT000017664501_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,577 - __main__ - ERROR - Le fichier CONSTEXT000017664501_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,616 - __main__ - ERROR - Le fichier CONSTEXT000017664502_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,617 - __main__ - ERROR - Le fichier CONSTEXT000017664502_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,617 - __main__ - ERROR - Le fichier CONSTEXT000017664502_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,659 - __main__ - ERROR - Le fichier CONSTEXT000017664502_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,660 - __main__ - ERROR - Le fichier CONSTEXT000017664503_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,660 - __main__ - ERROR - Le fichier CONSTEXT000017664503_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,661 - __main__ - ERROR - Le fichier CONSTEXT000017664503_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,661 - __main__ - ERROR - Le fichier CONSTEXT000017664503_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,695 - __main__ - ERROR - Le fichier CONSTEXT000017664503_annot_vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,696 - __main__ - ERROR - Le fichier CONSTEXT000017664504_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,696 - __main__ - ERROR - Le fichier CONSTEXT000017664504_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,696 - __main__ - ERROR - Le fichier CONSTEXT000017664504_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,697 - __main__ - ERROR - Le fichier CONSTEXT000017664504_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,735 - __main__ - ERROR - Le fichier CONSTEXT000017664504_annot_vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,735 - __main__ - ERROR - Le fichier CONSTEXT000017664505_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,736 - __main__ - ERROR - Le fichier CONSTEXT000017664505_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,736 - __main__ - ERROR - Le fichier CONSTEXT000017664505_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,784 - __main__ - ERROR - Le fichier CONSTEXT000017664505_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,785 - __main__ - ERROR - Le fichier CONSTEXT000017664507_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,786 - __main__ - ERROR - Le fichier CONSTEXT000017664507_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,787 - __main__ - ERROR - Le fichier CONSTEXT000017664507_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,826 - __main__ - ERROR - Le fichier CONSTEXT000017664507_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,827 - __main__ - ERROR - Le fichier CONSTEXT000017664507_annot_vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,828 - __main__ - ERROR - Le fichier CONSTEXT000017664508_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,828 - __main__ - ERROR - Le fichier CONSTEXT000017664508_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,829 - __main__ - ERROR - Le fichier CONSTEXT000017664508_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,830 - __main__ - ERROR - Le fichier CONSTEXT000017664508_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,874 - __main__ - ERROR - Le fichier CONSTEXT000017664508_annot_vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,875 - __main__ - ERROR - Le fichier CONSTEXT000017664509_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,876 - __main__ - ERROR - Le fichier CONSTEXT000017664509_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,877 - __main__ - ERROR - Le fichier CONSTEXT000017664509_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,877 - __main__ - ERROR - Le fichier CONSTEXT000017664509_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,920 - __main__ - ERROR - Le fichier CONSTEXT000017664509_annot_AH_vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,921 - __main__ - ERROR - Le fichier CONSTEXT000017664510_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,921 - __main__ - ERROR - Le fichier CONSTEXT000017664510_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,922 - __main__ - ERROR - Le fichier CONSTEXT000017664510_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,962 - __main__ - ERROR - Le fichier CONSTEXT000017664510_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,962 - __main__ - ERROR - Le fichier CONSTEXT000017664510_annot_vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,962 - __main__ - ERROR - Le fichier CONSTEXT000017664511_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,963 - __main__ - ERROR - Le fichier CONSTEXT000017664511_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,963 - __main__ - ERROR - Le fichier CONSTEXT000017664511_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,964 - __main__ - ERROR - Le fichier CONSTEXT000017664511_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,998 - __main__ - ERROR - Le fichier CONSTEXT000017664511_annot_vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,999 - __main__ - ERROR - Le fichier CONSTEXT000017664512_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,999 - __main__ - ERROR - Le fichier CONSTEXT000017664512_annot - PV Vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,999 - __main__ - ERROR - Le fichier CONSTEXT000017664512_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:38,999 - __main__ - ERROR - Le fichier CONSTEXT000017664512_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,000 - __main__ - ERROR - Le fichier CONSTEXT000017664512_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,039 - __main__ - ERROR - Le fichier CONSTEXT000017664513_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,039 - __main__ - ERROR - Le fichier CONSTEXT000017664513_annot - PV Vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,040 - __main__ - ERROR - Le fichier CONSTEXT000017664513_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,040 - __main__ - ERROR - Le fichier CONSTEXT000017664513_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,041 - __main__ - ERROR - Le fichier CONSTEXT000017664513_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,078 - __main__ - ERROR - Le fichier CONSTEXT000017664514_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,079 - __main__ - ERROR - Le fichier CONSTEXT000017664514_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,079 - __main__ - ERROR - Le fichier CONSTEXT000017664514_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,080 - __main__ - ERROR - Le fichier CONSTEXT000017664514_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,115 - __main__ - ERROR - Le fichier CONSTEXT000017664514_annot_vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,116 - __main__ - ERROR - Le fichier CONSTEXT000017664515_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,117 - __main__ - ERROR - Le fichier CONSTEXT000017664515_annot - PV Vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,117 - __main__ - ERROR - Le fichier CONSTEXT000017664515_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,118 - __main__ - ERROR - Le fichier CONSTEXT000017664515_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,153 - __main__ - ERROR - Le fichier CONSTEXT000017664515_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,154 - __main__ - ERROR - Le fichier CONSTEXT000017664516_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,154 - __main__ - ERROR - Le fichier CONSTEXT000017664516_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,155 - __main__ - ERROR - Le fichier CONSTEXT000017664516_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,155 - __main__ - ERROR - Le fichier CONSTEXT000017664516_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,198 - __main__ - ERROR - Le fichier CONSTEXT000017664517_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,198 - __main__ - ERROR - Le fichier CONSTEXT000017664517_annot - PV Vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,199 - __main__ - ERROR - Le fichier CONSTEXT000017664517_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,199 - __main__ - ERROR - Le fichier CONSTEXT000017664517_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,200 - __main__ - ERROR - Le fichier CONSTEXT000017664517_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,238 - __main__ - ERROR - Le fichier CONSTEXT000017664518_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,238 - __main__ - ERROR - Le fichier CONSTEXT000017664518_annot - PV Vu_Alya.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,239 - __main__ - ERROR - Le fichier CONSTEXT000017664518_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,239 - __main__ - ERROR - Le fichier CONSTEXT000017664518_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,240 - __main__ - ERROR - Le fichier CONSTEXT000017664518_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,274 - __main__ - ERROR - Le fichier CONSTEXT000017664519_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,275 - __main__ - ERROR - Le fichier CONSTEXT000017664519_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,276 - __main__ - ERROR - Le fichier CONSTEXT000017664519_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,276 - __main__ - ERROR - Le fichier CONSTEXT000017664519_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,313 - __main__ - ERROR - Le fichier CONSTEXT000017664520_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,314 - __main__ - ERROR - Le fichier CONSTEXT000017664520_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,314 - __main__ - ERROR - Le fichier CONSTEXT000017664520_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,315 - __main__ - ERROR - Le fichier CONSTEXT000017664520_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,351 - __main__ - ERROR - Le fichier CONSTEXT000017664521_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,352 - __main__ - ERROR - Le fichier CONSTEXT000017664521_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,353 - __main__ - ERROR - Le fichier CONSTEXT000017664521_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,389 - __main__ - ERROR - Le fichier CONSTEXT000017664521_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,390 - __main__ - ERROR - Le fichier CONSTEXT000017664523_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,390 - __main__ - ERROR - Le fichier CONSTEXT000017664523_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,390 - __main__ - ERROR - Le fichier CONSTEXT000017664523_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,391 - __main__ - ERROR - Le fichier CONSTEXT000017664523_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,426 - __main__ - ERROR - Le fichier CONSTEXT000017664524_annot - AS (LireAbstCC).xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,426 - __main__ - ERROR - Le fichier CONSTEXT000017664524_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,427 - __main__ - ERROR - Le fichier CONSTEXT000017664524_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,427 - __main__ - ERROR - Le fichier CONSTEXT000017664524_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,463 - __main__ - ERROR - Le fichier CONSTEXT000017664525_annot - AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,463 - __main__ - ERROR - Le fichier CONSTEXT000017664525_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,464 - __main__ - ERROR - Le fichier CONSTEXT000017664525_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,464 - __main__ - ERROR - Le fichier CONSTEXT000017664525_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,497 - __main__ - ERROR - Le fichier CONSTEXT000017664585_annot - AS (Rectificative).xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,497 - __main__ - ERROR - Le fichier CONSTEXT000017664585_annot - INUTILE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,498 - __main__ - ERROR - Le fichier CONSTEXT000017664585_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,537 - __main__ - ERROR - Le fichier CONSTEXT000017664586_annot - AS (Rectificative).xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,538 - __main__ - ERROR - Le fichier CONSTEXT000017664586_annot - INUTILE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,538 - __main__ - ERROR - Le fichier CONSTEXT000017664586_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,561 - __main__ - ERROR - Le fichier CONSTEXT000017664426_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,561 - __main__ - ERROR - Le fichier CONSTEXT000017664427_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,562 - __main__ - ERROR - Le fichier CONSTEXT000017664428_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,562 - __main__ - ERROR - Le fichier CONSTEXT000017664429_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,563 - __main__ - ERROR - Le fichier CONSTEXT000017664430_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,563 - __main__ - ERROR - Le fichier CONSTEXT000017664431_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,564 - __main__ - ERROR - Le fichier CONSTEXT000017664432_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,564 - __main__ - ERROR - Le fichier CONSTEXT000017664434_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,565 - __main__ - ERROR - Le fichier CONSTEXT000017664435_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,565 - __main__ - ERROR - Le fichier CONSTEXT000017664436_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,566 - __main__ - ERROR - Le fichier CONSTEXT000017664437_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,566 - __main__ - ERROR - Le fichier CONSTEXT000017664438_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,566 - __main__ - ERROR - Le fichier CONSTEXT000017664439_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,567 - __main__ - ERROR - Le fichier CONSTEXT000017664440_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,567 - __main__ - ERROR - Le fichier CONSTEXT000017664441_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,568 - __main__ - ERROR - Le fichier CONSTEXT000017664442_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,568 - __main__ - ERROR - Le fichier CONSTEXT000017664443_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,569 - __main__ - ERROR - Le fichier CONSTEXT000017664445_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,569 - __main__ - ERROR - Le fichier CONSTEXT000017664446_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,570 - __main__ - ERROR - Le fichier CONSTEXT000017664447_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,570 - __main__ - ERROR - Le fichier CONSTEXT000017664448_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,571 - __main__ - ERROR - Le fichier CONSTEXT000017664449_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,571 - __main__ - ERROR - Le fichier CONSTEXT000017664450_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,572 - __main__ - ERROR - Le fichier CONSTEXT000017664451_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,572 - __main__ - ERROR - Le fichier CONSTEXT000017664460_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,573 - __main__ - ERROR - Le fichier CONSTEXT000017664461_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,573 - __main__ - ERROR - Le fichier CONSTEXT000017664462_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,574 - __main__ - ERROR - Le fichier CONSTEXT000017664463_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,575 - __main__ - ERROR - Le fichier CONSTEXT000017664464_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,575 - __main__ - ERROR - Le fichier CONSTEXT000017664465_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,575 - __main__ - ERROR - Le fichier CONSTEXT000017664466_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,576 - __main__ - ERROR - Le fichier CONSTEXT000017664467_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,576 - __main__ - ERROR - Le fichier CONSTEXT000017664468_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,577 - __main__ - ERROR - Le fichier CONSTEXT000017664469_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,577 - __main__ - ERROR - Le fichier CONSTEXT000017664470_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,578 - __main__ - ERROR - Le fichier CONSTEXT000017664471_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,578 - __main__ - ERROR - Le fichier CONSTEXT000017664472_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,579 - __main__ - ERROR - Le fichier CONSTEXT000017664473_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,579 - __main__ - ERROR - Le fichier CONSTEXT000017664474_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,580 - __main__ - ERROR - Le fichier CONSTEXT000017664475_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,580 - __main__ - ERROR - Le fichier CONSTEXT000017664476_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,581 - __main__ - ERROR - Le fichier CONSTEXT000017664477_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,581 - __main__ - ERROR - Le fichier CONSTEXT000017664478_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,581 - __main__ - ERROR - Le fichier CONSTEXT000017664479_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,582 - __main__ - ERROR - Le fichier CONSTEXT000017664480_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,583 - __main__ - ERROR - Le fichier CONSTEXT000017664481_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,583 - __main__ - ERROR - Le fichier CONSTEXT000017664482_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,584 - __main__ - ERROR - Le fichier CONSTEXT000017664483_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,584 - __main__ - ERROR - Le fichier CONSTEXT000017664484_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,584 - __main__ - ERROR - Le fichier CONSTEXT000017664485_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,585 - __main__ - ERROR - Le fichier CONSTEXT000017664486_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,585 - __main__ - ERROR - Le fichier CONSTEXT000017664487_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,586 - __main__ - ERROR - Le fichier CONSTEXT000017664488_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,586 - __main__ - ERROR - Le fichier CONSTEXT000017664489_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,587 - __main__ - ERROR - Le fichier CONSTEXT000017664490_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,587 - __main__ - ERROR - Le fichier CONSTEXT000017664491_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,588 - __main__ - ERROR - Le fichier CONSTEXT000017664492_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,588 - __main__ - ERROR - Le fichier CONSTEXT000017664493_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,589 - __main__ - ERROR - Le fichier CONSTEXT000017664494_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,589 - __main__ - ERROR - Le fichier CONSTEXT000017664495_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,590 - __main__ - ERROR - Le fichier CONSTEXT000017664496_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,590 - __main__ - ERROR - Le fichier CONSTEXT000017664497_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,591 - __main__ - ERROR - Le fichier CONSTEXT000017664498_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,591 - __main__ - ERROR - Le fichier CONSTEXT000017664499_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,592 - __main__ - ERROR - Le fichier CONSTEXT000017664501_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,592 - __main__ - ERROR - Le fichier CONSTEXT000017664502_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,593 - __main__ - ERROR - Le fichier CONSTEXT000017664503_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,593 - __main__ - ERROR - Le fichier CONSTEXT000017664504_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,593 - __main__ - ERROR - Le fichier CONSTEXT000017664505_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,594 - __main__ - ERROR - Le fichier CONSTEXT000017664507_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,594 - __main__ - ERROR - Le fichier CONSTEXT000017664508_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,595 - __main__ - ERROR - Le fichier CONSTEXT000017664509_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,595 - __main__ - ERROR - Le fichier CONSTEXT000017664510_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,596 - __main__ - ERROR - Le fichier CONSTEXT000017664511_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,596 - __main__ - ERROR - Le fichier CONSTEXT000017664512_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,597 - __main__ - ERROR - Le fichier CONSTEXT000017664513_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,597 - __main__ - ERROR - Le fichier CONSTEXT000017664514_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,598 - __main__ - ERROR - Le fichier CONSTEXT000017664515_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,598 - __main__ - ERROR - Le fichier CONSTEXT000017664516_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,599 - __main__ - ERROR - Le fichier CONSTEXT000017664517_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,600 - __main__ - ERROR - Le fichier CONSTEXT000017664518_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,600 - __main__ - ERROR - Le fichier CONSTEXT000017664519_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,601 - __main__ - ERROR - Le fichier CONSTEXT000017664520_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,601 - __main__ - ERROR - Le fichier CONSTEXT000017664521_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,602 - __main__ - ERROR - Le fichier CONSTEXT000017664523_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,602 - __main__ - ERROR - Le fichier CONSTEXT000017664524_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,603 - __main__ - ERROR - Le fichier CONSTEXT000017664525_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,612 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2003
+2026-06-08 14:49:39,649 - __main__ - ERROR - Le fichier CONSTEXT000017664553_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,649 - __main__ - ERROR - Le fichier CONSTEXT000017664553_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,682 - __main__ - ERROR - Le fichier CONSTEXT000017664553_annot_AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,682 - __main__ - ERROR - Le fichier CONSTEXT000017664553_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,691 - __main__ - ERROR - Le fichier CONSTEXT000017664639_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,731 - __main__ - ERROR - Le fichier CONSTEXT000017664639_annot_AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,731 - __main__ - ERROR - Le fichier CONSTEXT000017664668_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,765 - __main__ - ERROR - Le fichier CONSTEXT000017664668_annot_AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,775 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2003/ineligibilite
+2026-06-08 14:49:39,804 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2003/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:39,814 - __main__ - ERROR - Le fichier CONSTEXT000017664550_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,814 - __main__ - ERROR - Le fichier CONSTEXT000017664550_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,815 - __main__ - ERROR - Le fichier CONSTEXT000017664550_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,854 - __main__ - ERROR - Le fichier CONSTEXT000017664550_annot_AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,854 - __main__ - ERROR - Le fichier CONSTEXT000017664551_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,855 - __main__ - ERROR - Le fichier CONSTEXT000017664551_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,855 - __main__ - ERROR - Le fichier CONSTEXT000017664551_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,891 - __main__ - ERROR - Le fichier CONSTEXT000017664551_annot_AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,892 - __main__ - ERROR - Le fichier CONSTEXT000017664552_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,892 - __main__ - ERROR - Le fichier CONSTEXT000017664552_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,893 - __main__ - ERROR - Le fichier CONSTEXT000017664552_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,929 - __main__ - ERROR - Le fichier CONSTEXT000017664552_annot_AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,929 - __main__ - ERROR - Le fichier CONSTEXT000017664554_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,929 - __main__ - ERROR - Le fichier CONSTEXT000017664554_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,970 - __main__ - ERROR - Le fichier CONSTEXT000017664554_annot_AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,970 - __main__ - ERROR - Le fichier CONSTEXT000017664554_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,971 - __main__ - ERROR - Le fichier CONSTEXT000017664555_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,971 - __main__ - ERROR - Le fichier CONSTEXT000017664555_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:39,972 - __main__ - ERROR - Le fichier CONSTEXT000017664555_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,011 - __main__ - ERROR - Le fichier CONSTEXT000017664555_annot_AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,012 - __main__ - ERROR - Le fichier CONSTEXT000017664556_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,012 - __main__ - ERROR - Le fichier CONSTEXT000017664556_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,013 - __main__ - ERROR - Le fichier CONSTEXT000017664556_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,050 - __main__ - ERROR - Le fichier CONSTEXT000017664556_annot_AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,050 - __main__ - ERROR - Le fichier CONSTEXT000017664557_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,051 - __main__ - ERROR - Le fichier CONSTEXT000017664557_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,078 - __main__ - ERROR - Le fichier CONSTEXT000017664557_annot_AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,079 - __main__ - ERROR - Le fichier CONSTEXT000017664557_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,079 - __main__ - ERROR - Le fichier CONSTEXT000017664558_annot - PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,079 - __main__ - ERROR - Le fichier CONSTEXT000017664558_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,111 - __main__ - ERROR - Le fichier CONSTEXT000017664558_annot_AS.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,112 - __main__ - ERROR - Le fichier CONSTEXT000017664558_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,127 - __main__ - ERROR - Le fichier CONSTEXT000017664550_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,127 - __main__ - ERROR - Le fichier CONSTEXT000017664551_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,127 - __main__ - ERROR - Le fichier CONSTEXT000017664552_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,127 - __main__ - ERROR - Le fichier CONSTEXT000017664554_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,128 - __main__ - ERROR - Le fichier CONSTEXT000017664555_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,128 - __main__ - ERROR - Le fichier CONSTEXT000017664556_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,128 - __main__ - ERROR - Le fichier CONSTEXT000017664557_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,129 - __main__ - ERROR - Le fichier CONSTEXT000017664558_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,134 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2004
+2026-06-08 14:49:40,149 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2004/ineligibilite
+2026-06-08 14:49:40,157 - __main__ - ERROR - Le fichier CONSTEXT000017664790_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,180 - __main__ - ERROR - Le fichier CONSTEXT000017664790_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,193 - __main__ - ERROR - Le fichier CONSTEXT000017664790_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,200 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2005
+2026-06-08 14:49:40,213 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2005/ineligibilite
+2026-06-08 14:49:40,219 - __main__ - ERROR - Le fichier CONSTEXT000017664763_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,219 - __main__ - ERROR - Le fichier CONSTEXT000017664763_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,263 - __main__ - ERROR - Le fichier CONSTEXT000017664763_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,270 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2007
+2026-06-08 14:49:40,297 - __main__ - ERROR - Le fichier CONSTEXT000017789348_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,297 - __main__ - ERROR - Le fichier CONSTEXT000017789348_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,320 - __main__ - ERROR - Le fichier CONSTEXT000017789348_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:40,360 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2007/non-lieu-a-statuer
+2026-06-08 14:49:40,419 - __main__ - ERROR - Le fichier CONSTEXT000017664830_annot_MK.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:41,873 - __main__ - ERROR - Le fichier CONSTEXT000017789340_annot_MK.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:43,211 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2008
+2026-06-08 14:49:43,312 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2008/ineligibilite
+2026-06-08 14:49:43,320 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2008/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:43,432 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2009
+2026-06-08 14:49:43,449 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2009/ineligibilite
+2026-06-08 14:49:43,455 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2009/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:43,514 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2010
+2026-06-08 14:49:43,536 - __main__ - ERROR - Le fichier CONSTEXT000022393071_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:43,536 - __main__ - ERROR - Le fichier CONSTEXT000022393071_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:43,563 - __main__ - ERROR - Le fichier CONSTEXT000022393071_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:43,568 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2010/ineligibilite
+2026-06-08 14:49:43,576 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2010/non-lieu-a-statuer
+2026-06-08 14:49:43,619 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2012
+2026-06-08 14:49:43,645 - __main__ - ERROR - Le fichier CONSTEXT000027090310_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:43,645 - __main__ - ERROR - Le fichier CONSTEXT000027090310_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:43,681 - __main__ - ERROR - Le fichier CONSTEXT000027090310_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:45,854 - __main__ - ERROR - Le fichier CONSTEXT000027090316_annot - ExempleGuideAnnotation.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:46,817 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2013
+2026-06-08 14:49:46,878 - __main__ - ERROR - Le fichier CONSTEXT000027146926_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:46,879 - __main__ - ERROR - Le fichier CONSTEXT000027146926_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:46,915 - __main__ - ERROR - Le fichier CONSTEXT000027146926_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:47,055 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2013/approbation
+2026-06-08 14:49:47,068 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2013/ineligibilite
+2026-06-08 14:49:47,081 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2013/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:47,095 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2013/non-lieu-a-statuer
+2026-06-08 14:49:47,108 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2013/rectification-d-erreur-materielle
+2026-06-08 14:49:47,482 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2014
+2026-06-08 14:49:47,501 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2014/ineligibilite
+2026-06-08 14:49:47,507 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2015
+2026-06-08 14:49:47,537 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2015/ineligibilite
+2026-06-08 14:49:47,545 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2015/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:47,711 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2016
+2026-06-08 14:49:47,873 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2017
+2026-06-08 14:49:47,899 - __main__ - ERROR - Le fichier CONSTEXT000036157851_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:47,899 - __main__ - ERROR - Le fichier CONSTEXT000036157851_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:47,933 - __main__ - ERROR - Le fichier CONSTEXT000036157851_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:47,933 - __main__ - ERROR - Le fichier CONSTEXT000036192778_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:47,933 - __main__ - ERROR - Le fichier CONSTEXT000036192778_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:47,956 - __main__ - ERROR - Le fichier CONSTEXT000036192778_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:47,957 - __main__ - ERROR - Le fichier CONSTEXT000036192782_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:47,957 - __main__ - ERROR - Le fichier CONSTEXT000036192782_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:47,990 - __main__ - ERROR - Le fichier CONSTEXT000036192782_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:47,990 - __main__ - ERROR - Le fichier CONSTEXT000036238090_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:47,991 - __main__ - ERROR - Le fichier CONSTEXT000036238090_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:48,022 - __main__ - ERROR - Le fichier CONSTEXT000036238090_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:48,022 - __main__ - ERROR - Le fichier CONSTEXT000036238091_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:48,023 - __main__ - ERROR - Le fichier CONSTEXT000036238091_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:48,063 - __main__ - ERROR - Le fichier CONSTEXT000036238091_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:48,074 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2017/ineligibilite
+2026-06-08 14:49:55,507 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2018
+2026-06-08 14:49:55,554 - __main__ - ERROR - Le fichier CONSTEXT000036539290_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:55,555 - __main__ - ERROR - Le fichier CONSTEXT000036539290_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:55,596 - __main__ - ERROR - Le fichier CONSTEXT000036539290_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:55,597 - __main__ - ERROR - Le fichier CONSTEXT000036706180_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:55,597 - __main__ - ERROR - Le fichier CONSTEXT000036706180_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:55,632 - __main__ - ERROR - Le fichier CONSTEXT000036706180_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:55,633 - __main__ - ERROR - Le fichier CONSTEXT000036706184_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:55,634 - __main__ - ERROR - Le fichier CONSTEXT000036706184_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:55,670 - __main__ - ERROR - Le fichier CONSTEXT000036706184_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:55,681 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2018/ineligibilite
+2026-06-08 14:49:55,689 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2018/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:55,697 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2018/non-lieu-a-statuer
+2026-06-08 14:49:55,705 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2018/rectification-d-erreur-materielle
+2026-06-08 14:49:56,118 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2019
+2026-06-08 14:49:56,147 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2019/ineligibilite
+2026-06-08 14:49:56,155 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2019/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:56,163 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2019/rectification-d-erreur-materielle
+2026-06-08 14:49:56,213 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2020
+2026-06-08 14:49:56,253 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2021
+2026-06-08 14:49:56,263 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2021/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:56,328 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2022
+2026-06-08 14:49:56,380 - __main__ - ERROR - Le fichier CONSTEXT000046778536_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:56,423 - __main__ - ERROR - Le fichier CONSTEXT000046778536_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:56,424 - __main__ - ERROR - Le fichier CONSTEXT000046778536_annot_VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:56,424 - __main__ - ERROR - Le fichier CONSTEXT000046778541_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:56,425 - __main__ - ERROR - Le fichier CONSTEXT000046778541_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:56,467 - __main__ - ERROR - Le fichier CONSTEXT000046778541_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:56,467 - __main__ - ERROR - Le fichier CONSTEXT000046778543_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:56,468 - __main__ - ERROR - Le fichier CONSTEXT000046778543_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:56,511 - __main__ - ERROR - Le fichier CONSTEXT000046778543_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:56,524 - __main__ - ERROR - Le fichier CONSTEXT000045243080_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:56,578 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2022/ineligibilite
+2026-06-08 14:49:56,588 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2022/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:56,598 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2022/non-lieu-a-statuer
+2026-06-08 14:49:56,606 - __main__ - ERROR - Le fichier .DS_Store n'est pas un fichier XML d'annotation
+2026-06-08 14:49:56,797 - __main__ - ERROR - Le fichier CONSTEXT000046216473_annot - ExempleGuideAnnotation.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:58,683 - __main__ - ERROR - Le fichier CONSTEXT000046356621_annot - DECISION RECTIFICATION.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:59,242 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2023
+2026-06-08 14:49:59,278 - __main__ - ERROR - Le fichier CONSTEXT000047748796_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:59,278 - __main__ - ERROR - Le fichier CONSTEXT000047748796_annot - VALIDE.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:59,304 - __main__ - ERROR - Le fichier CONSTEXT000047748796_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:59,304 - __main__ - ERROR - Le fichier CONSTEXT000047748797_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:59,332 - __main__ - ERROR - Le fichier CONSTEXT000047748797_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:59,332 - __main__ - ERROR - Le fichier CONSTEXT000047748808_annot - RR.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:59,365 - __main__ - ERROR - Le fichier CONSTEXT000047748808_annot_PV.xml n'est pas un fichier XML d'annotation
+2026-06-08 14:49:59,375 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2023/ineligibilite
+2026-06-08 14:49:59,420 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2023/non-lieu-a-prononcer-l-ineligibilite
+2026-06-08 14:49:59,430 - __main__ - INFO - pas de dossier rejet ou annualtion trouvé pour le dossier ../documents/AN/2023/non-lieu-a-statuer
+2026-06-08 14:49:59,887 - __main__ - INFO - 
+Fichiers annot XML trouvés : 1564
+2026-06-08 14:49:59,887 - __main__ - INFO - Fichiers traités avec succès : 1564
+2026-06-08 14:49:59,888 - __main__ - INFO - Fichiers en erreur : 0
+2026-06-08 14:50:00,108 - __main__ - INFO - JSON généré : output.json

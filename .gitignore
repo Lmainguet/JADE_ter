@@ -9,3 +9,4 @@ code/venv
 Thumbs.db
 code/Test_modele/final_model/*
 code/Test_modele/bert_text_classifier/*
+code/__pycache__/*

@@ -4,10 +4,13 @@ import os
 import re
 import xml.etree.ElementTree as ET
 from datasets import Dataset, DatasetDict
-from sklearn.model_selection import train_test_split
+import logging
+from logging_config import setup_logging
 
-
+setup_logging("PROD")  # ou "DEV"
+logger = logging.getLogger(__name__)
 RACINE = "../documents/AN"
+
 
 def get_contenu_avec_br(root):
     contenu = root.find(".//CONTENU")
@@ -55,25 +58,27 @@ def extraire_blocs_considerants(texte):
                 "text": contenu,
                 "label": []
             })
+    logger.debug(f"Blocs extraits : {len(blocs)}")
     return blocs
 
 
 def create_dico_considerants(RACINE=RACINE,output_json="output.json"):
+    logger.info(f"-- before_training.py -- \nDébut de la création du dictionnaire des considérants à partir des fichiers XML dans {RACINE}")
     # le dico final avec tous les fichiers et les considerants des fichiers
     documents = []
     total_xml = 0
     total_traite = 0
     
     for root, dirs, files in os.walk(RACINE):
-        print(f"Traitement du dossier : {root}, {dirs}")
+        logger.debug(f"Traitement du dossier : {root}, {dirs}")
         dossier = root.lower()
         if "rejet" not in dossier and "annulation" not in dossier:
-            #print("pas de dossier rejet ou annualtion trouvé")
+            logger.info(f"pas de dossier rejet ou annualtion trouvé pour le dossier {root}")
             continue
 
         for f in files:
             if not f.endswith("_annot.xml"):
-                #print(f"Le fichier {f} n'est pas un fichier XML d'annotation")
+                logger.error(f"Le fichier {f} n'est pas un fichier XML d'annotation")
                 continue
             total_xml += 1
             chemin = os.path.join(root, f)
@@ -93,50 +98,15 @@ def create_dico_considerants(RACINE=RACINE,output_json="output.json"):
                 })
                 total_traite += 1
             except Exception as e:
-                print(f"Erreur XML dans {chemin} : {e}")
-                
-    print(f"\nFichiers annot XML trouvés : {total_xml}")
-    print(f"Fichiers traités avec succès : {total_traite}")
-    print(f"Fichiers en erreur : {total_xml - total_traite}")
-    
+                logger.error(f"Erreur XML dans {chemin} : {e}")
+
+    logger.info(f"\nFichiers annot XML trouvés : {total_xml}")
+    logger.info(f"Fichiers traités avec succès : {total_traite}")
+    logger.info(f"Fichiers en erreur : {total_xml - total_traite}")
+
     with open(output_json, "w", encoding="utf-8") as f:
         json.dump(documents, f, ensure_ascii=False, indent=2)
-
-    #print(f"JSON généré : {output_json}")
+    logger.info(f"JSON généré : {output_json}")
     return documents
-
-
-def dict_to_datasetdict(data_dict, test_size=0.15, seed=42):
-    # Convertir le dict en liste d'exemples
-    texts = []
-    labels = []
-
-    for item in data_dict.values():
-        texts.append(item["text"])
-        labels.append(item.get("label", []))
-
-    # Split train / validation
-    train_idx, val_idx = train_test_split(
-        range(len(texts)),
-        test_size=test_size,
-        random_state=seed,
-        shuffle=True
-    )
-
-    # Construire les datasets
-    train_dataset = Dataset.from_dict({
-        "text": [texts[i] for i in train_idx],
-        "label": [labels[i] for i in train_idx],
-    })
-
-    val_dataset = Dataset.from_dict({
-        "text": [texts[i] for i in val_idx],
-        "label": [labels[i] for i in val_idx],
-    })
-
-    return DatasetDict({
-        "train": train_dataset,
-        "validation": val_dataset
-    })
     
 create_dico_considerants()

@@ -23,7 +23,7 @@ NUM_EPOCHS = 3
 BATCH_SIZE = 8
 MAX_LENGTH = 128
 
-# Callback pour afficher proprement les scores pendant l'entraînement
+# Fonction callback pour afficher proprement les scores pendant l'entraînement
 class AffichagePrecisionCallback(TrainerCallback):
     def on_evaluate(self, args, state, control, metrics, **kwargs):
         epoch = int(state.epoch) if state.epoch is not None else 0

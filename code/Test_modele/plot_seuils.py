@@ -59,7 +59,7 @@ def main():
     plt.grid(True, linestyle="--", alpha=0.5)
     plt.legend()
     
-    plt.savefig(BASE_DIR / "courbe_seuils_metier.png")
+    plt.savefig(BASE_DIR / "courbe_seuils.png")
     plt.show()
 
 if __name__ == "__main__":

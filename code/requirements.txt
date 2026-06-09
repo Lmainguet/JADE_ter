@@ -5,3 +5,5 @@ datasets>=2.18.0
 scikit-learn>=1.4.0
 numpy>=1.26.0
 odfpy
+accelerate
+matplotlib

@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent
 MODEL_DIR = BASE_DIR / "final_model"
 MAX_LENGTH = 128
 
-INPUT_FILE = BASE_DIR / "../data_a_predire.json"
+INPUT_FILE = BASE_DIR / "data_a_predire.json"
 OUTPUT_FILE = BASE_DIR / "predictions_finales.json"
 
 def main():

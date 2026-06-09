@@ -23,9 +23,10 @@ def main():
     #Test des différents seuils
     seuils = np.arange(0, 1, 0.05)
     precisions, rappels = [], []
+    f_scores = []
 
-    print(f"{'Seuil':<6} | {'Précision':<10} | {'Rappel':<10} | {'Vides':<15}")
-    print("-" * 50)
+    print(f"{'Seuil':<6} | {'Précision':<10} | {'Rappel':<10} | {'F-score':<10} | {'Vides':<15}")
+    print("-" * 65)
 
     for s in seuils:
         indices_valides = [i for i in range(len(probs)) if confiances[i] >= s]
@@ -42,15 +43,20 @@ def main():
         justes_total = sum([1 for i in range(len(probs)) if confiances[i] >= s and pred_ids[i] == vrais_labels[i]])
         r = justes_total / len(vrais_labels)
         
+        # F-score
+        f = 2 * (p * r) / (p + r)
+        
         precisions.append(p)
         rappels.append(r)
+        f_scores.append(f)
         
-        print(f"{s:.2f}   | {p:.4f}     | {r:.4f}   | {nb_vides} / {len(vrais_labels)}")
+        print(f"{s:.2f}   | {p:.4f}     | {r:.4f}     | {f:.4f}    | {nb_vides} / {len(vrais_labels)}")
 
     #Tracé du graphique
     plt.figure(figsize=(8, 6))
     plt.plot(seuils, precisions, label="Précision", color="blue", marker="o")
     plt.plot(seuils, rappels, label="Rappel", color="orange", marker="s")
+    plt.plot(seuils, f_scores, label="F-score", color="green", marker="^")
     
     plt.title("Optimisation du Seuil de Confiance")
     plt.xlabel("Seuil")

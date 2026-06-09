@@ -10,9 +10,9 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trai
 BASE_DIR = Path(__file__).resolve().parent
 
 # Chemins des données et modèles
-TRAIN_FILE = BASE_DIR / "../train.json"
-DEV_FILE = BASE_DIR / "../dev.json"
-TEST_FILE = BASE_DIR / "../test.json"
+TRAIN_FILE = BASE_DIR / "train.json"
+DEV_FILE = BASE_DIR / "dev.json"
+TEST_FILE = BASE_DIR / "test.json"
 
 MODEL_NAME = "almanach/camembert-base"
 OUTPUT_DIR = BASE_DIR / "bert_text_classifier"

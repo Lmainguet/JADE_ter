@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Annotation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h2>Décision {{ decision_id }} — Considérant {{ cons_id }}</h2>
+
+    <p>{{ text }}</p>
+
+    <hr>
+
+    <h3>Choisir un label :</h3>
+
+    <div class="label-buttons">
+    {% for label in labels %}<form method="POST" action="/label">
+        <input type="hidden" name="decision" value="{{ decision_id }}">
+        <input type="hidden" name="cons" value="{{ cons_id }}">
+        <input type="hidden" name="label" value="{{ label }}">
+        <button type="submit">{{ label }}</button>
+    </form>{% endfor %}
+    </div>
+
+
+</body>
+</html>

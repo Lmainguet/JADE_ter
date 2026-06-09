@@ -4,10 +4,7 @@
 .DS_Store
 .DS_Store?
 ._*
-code/venv
 *Zone.Identifier
 Thumbs.db
 code/Test_modele/final_model/*
 code/Test_modele/bert_text_classifier/*
-code/Test_modele/predictions_finales.json
-code/data_a_predire.json

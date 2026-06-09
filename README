@@ -1,9 +1,105 @@
-create python env just one
+### Automate grievance annotation for the [JADE project](https://blogdudroitelectoral.fr/justice-algorithmique-des-elections-jade/)
+
+## Pipeline creation du dataset
+Génération du JSON des données annotées
+
+# Mise en place de l'environnement
+
+se placer dans `/grief/stage_2026/code`
+creation d'un environnement python une seule fois apres le git clone
 ```python3 -m venv venv```
 
-installer les librairies 
-```python3 -m pip install --break-system-packages -r requirement.txt```
-sudo apt install cifs-utils
+installer les librairies une seule fois apres la creation de l'environnement python venv
+```
+python3 -m pip install --break-system-packages -r ../requirement.txt
+pip install pandas
+```
 
-activate python env 
+# Commande à faire pour lancer le projet
+
+activate python env a chaque fois que vous travaillez sur le projet.
+un (venv) doit etre present dans votre terminal
 ```source venv/bin/activate```
+vous devez voir : `(venv) louane@ordinateur:~/arborescence/griefs/stage_2026/code`
+
+taper les commandes suivantes dans l'ordre pour lancer les fichiers python
+```
+python before_training.py
+python recup_label.py
+python count_label_occurence.py
+```
+vous pouvez maintenant recuperer les données à utiliser dans considerants_avec_label.json
+
+## Modele reseau de neurone
+> etre dans le repertoir **jade_code/griefs/stage_2026/code**
+
+Prends en entrée une liste de considerants annotés et génère 
+- super_objet_dataset_stats.json qui compte le nombre d'occurence pour chaque label
+- super_objet_rows.json qui genere un json de forme {text, label, source_super_objet, source_sous_objet}
+```
+python3 prepare_super_objet_rows.py \
+  --input ../../louis_maritaud/data_objet.json \
+  --jsonl-output ../documents/super_objet_rows.jsonl \
+  --dataset-stats-output ../documents/super_objet_dataset_stats.json
+```
+
+Fait la s'épparation des 3 corpus et genere les fichiers 
+- super_objet_split_stats.json : S'eppare 3 corpus : train 0.7, dev 0.15, test 0.15
+compte le nombre d'occurence de chaque label pour chaque corpus
+- super_objet_splits.json : contient les index de lignes des données du fichier super_objet_rows.jsonl, déterminé par tirage aléatoire. Permet d'entraîner différents modèles avec les mêmes splits avec tracabilité.
+```
+python3 build_super_objet_split.py \
+  --input ../documents/super_objet_rows.jsonl \
+  --split-output ../documents/super_objet_split.json \
+  --split-stats-output ../documents/super_objet_split_stats.json
+```
+
+Lire super_objet_split.json et genere les métriques, les prédictions et correction par considerant, les IDs des lignes utilisées dans ../runs/super_objet
+```
+python3 train_fixed_embedding_classifier.py \
+  --split-input ../documents/super_objet_split.json \
+  --output-dir ../runs/super_objet/louis_data/stage4/logreg_mean_len512_seed42
+```
+
+Lire super_objet_split.json et genere les métriques, les prédictions et correction par considerant, les IDs des lignes utilisées dans ../runs/camembert_super_objet_seed42
+Lancement de l'entrainement du model Camembert
+```
+python3 train_classifier.py \
+  --split-input ../documents/super_objet_split.json \
+  --output-dir ../runs/camembert_super_objet_seed42
+```
+
+---
+# arborescence et explication des fichiers
+- before_training.py : recuperation des considerants des xml contenus dans les dossiers AN/*/rejet et AN/*/annulation, creation du json output.json associé
+- Bert_model.py : modele d'essaie
+- count_label_occurence.py : compte le nombre d'occurence de chaque label dans considerants_avec_labels.json
+- recup_label.py : traite output.json et documents/recap_0-8_vérification_humaine_AB_AST complète.ods afin d'attribuer un label aux considerants corrigés. Genere considerants_avec_labels.json qui possede une liste des considerants et les labels corrigés associés.
+'''
+[
+  {
+    "id": "CONSTEXT000017665826",
+    "considerants": [
+      {
+        "numero": 1,
+        "text": "Considérant qu'en soulevant un moyen tiré de ce que les procès-verbaux de recensement des votes de certains bureaux font apparaître un excédent dans le nombre des enveloppes et bulletins sans enveloppe trouvés dans l'urne par rapport au nombre des émargements, ...",
+        "label": [
+          "7. operation prealable au scrutin"
+        ]
+      },   
+      {...}
+    ]
+  },
+  {
+    "id": "CONSTEXT000017665819",
+    "considerants": [
+      {
+        "numero": 1,
+        "text": "",
+        "label": []
+      }
+    ]
+  }
+]
+'''
+

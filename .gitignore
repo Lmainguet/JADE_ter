@@ -1,6 +1,7 @@
 /venv
 /documents/AN/*
 *.xml
+*.json
 .DS_Store
 .DS_Store?
 ._*

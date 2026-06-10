@@ -12,9 +12,9 @@ OUTPUT_FILE = BASE_DIR / "predictions_finales.json"
 
 def main():
     if not MODEL_DIR.exists():
-        raise FileNotFoundError("Le dossier final_model n'existe pas. Lance d'abord train_model.py.")
+        raise FileNotFoundError("Le dossier final_model n'existe pas.")
     if not INPUT_FILE.exists():
-        raise FileNotFoundError("Le dossier data_a_predire.json n'existe pas. Lance d'abord ton script de découpage.")
+        raise FileNotFoundError("Le dossier data_a_predire.json n'existe pas.")
 
     # Chargement des données
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
@@ -50,7 +50,7 @@ def main():
         predicted_label = id2label[predicted_id]
         confidence = float(probabilities[predicted_id])
 
-        # On garde les infos de base et on ajoute la prédiction + confiance
+        # Infos de base et prédiction + confiance
         item_predit = {
             "doc_id": item.get("doc_id"),
             "numero": item.get("numero"),

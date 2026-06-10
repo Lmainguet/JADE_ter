@@ -31,43 +31,34 @@ python count_label_occurence.py
 vous pouvez maintenant recuperer les données à utiliser dans considerants_avec_label.json
 
 ## Modele reseau de neurone
-> etre dans le repertoir **jade_code/griefs/stage_2026/code**
+## Comment lancer les codes :
 
-Prends en entrée une liste de considerants annotés et génère 
-- super_objet_dataset_stats.json qui compte le nombre d'occurence pour chaque label
-- super_objet_rows.json qui genere un json de forme {text, label, source_super_objet, source_sous_objet}
-```
-python3 prepare_super_objet_rows.py \
-  --input ../../louis_maritaud/data_objet.json \
-  --jsonl-output ../documents/super_objet_rows.jsonl \
-  --dataset-stats-output ../documents/super_objet_dataset_stats.json
-```
+# Se placer dans JADE_ter/code
+creation d'un environnement python une seule fois apres le git clone
+```python3 -m venv venv```
+Puis l'activer à chaque utilisation du code
+```source venv/bin/activate```
 
-Fait la s'épparation des 3 corpus et genere les fichiers 
-- super_objet_split_stats.json : S'eppare 3 corpus : train 0.7, dev 0.15, test 0.15
-compte le nombre d'occurence de chaque label pour chaque corpus
-- super_objet_splits.json : contient les index de lignes des données du fichier super_objet_rows.jsonl, déterminé par tirage aléatoire. Permet d'entraîner différents modèles avec les mêmes splits avec tracabilité.
-```
-python3 build_super_objet_split.py \
-  --input ../documents/super_objet_rows.jsonl \
-  --split-output ../documents/super_objet_split.json \
-  --split-stats-output ../documents/super_objet_split_stats.json
-```
+installer les librairies une seule fois apres la creation et l'activation de l'environnement python venv
+```pip install -r requirements.txt```
 
-Lire super_objet_split.json et genere les métriques, les prédictions et correction par considerant, les IDs des lignes utilisées dans ../runs/super_objet
-```
-python3 train_fixed_embedding_classifier.py \
-  --split-input ../documents/super_objet_split.json \
-  --output-dir ../runs/super_objet/louis_data/stage4/logreg_mean_len512_seed42
-```
+# Se placer dans JADE_ter/code/Modele
+Vérifier que le fichier considerants_avec_labels.json existe
+Lancer Séparation.py
+```python Séparation.py```
 
-Lire super_objet_split.json et genere les métriques, les prédictions et correction par considerant, les IDs des lignes utilisées dans ../runs/camembert_super_objet_seed42
-Lancement de l'entrainement du model Camembert
-```
-python3 train_classifier.py \
-  --split-input ../documents/super_objet_split.json \
-  --output-dir ../runs/camembert_super_objet_seed42
-```
+Les fichiers utilisés par train_model.py sont désormais créés
+
+Lancer train_model.py
+```python train_model.py```
+
+Le modèle est entrainé, on peut donc lancer plot_seuils.py pour voir rappel, précision et f score
+```python plot_seuils.py```
+
+Ou lancer predict.py pour faire des précisions sur des nouvelles données
+```python predict.py```
+
+Les prédictions sont dans predictions_finales.json
 
 ---
 # arborescence et explication des fichiers

@@ -4,8 +4,11 @@ from sklearn.model_selection import StratifiedShuffleSplit
 from collections import Counter
 
 # Chargement 
-with open("considerants_avec_labels.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
+try :
+    with open("considerants_avec_labels.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+except : 
+    print("Le fichier considerants_avec_labels.json n'existe pas")
 
 # Filtrage
 EXCLURE = ["1. irrecevabilite","1. procedure", "None", None]

@@ -58,7 +58,7 @@ def main():
     plt.plot(seuils, rappels, label="Rappel", color="orange", marker="s")
     plt.plot(seuils, f_scores, label="F-score", color="green", marker="^")
     
-    plt.title("Optimisation du Seuil de Confiance")
+    plt.title("Précision, rappel et F-score")
     plt.xlabel("Seuil")
     plt.ylabel("Score")
     plt.ylim(-0.05, 1.05)

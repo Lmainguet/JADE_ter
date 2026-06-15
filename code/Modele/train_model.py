@@ -6,10 +6,14 @@ import pandas as pd
 from datasets import Dataset
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments, TrainerCallback
+import logging
+from logging_config import setup_logging
 
-BASE_DIR = Path(__file__).resolve().parent
+setup_logging("PROD")  # ou "DEV"
+logger = logging.getLogger(__name__)
 
 # Chemins des données et modèles
+BASE_DIR = Path(__file__).resolve().parent
 TRAIN_FILE = BASE_DIR / "train.json"
 DEV_FILE = BASE_DIR / "dev.json"
 TEST_FILE = BASE_DIR / "test.json"
@@ -31,9 +35,9 @@ class AffichagePrecisionCallback(TrainerCallback):
         precision = metrics.get("eval_precision")
         
         if accuracy is not None and precision is not None:
-            print(f"\n--- Époque {epoch} ---")
-            print(f"Accuracy : {accuracy:.4f} | Précision : {precision:.4f}")
-            print("-" * 20)
+            logger.info(f"\n--- Époque {epoch} ---")
+            logger.info(f"Accuracy : {accuracy:.4f} | Précision : {precision:.4f}")
+            logger.info("-" * 20)
 
 def make_training_arguments():
     params = {

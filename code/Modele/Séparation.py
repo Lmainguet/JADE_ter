@@ -2,13 +2,18 @@ import json
 import numpy as np
 from sklearn.model_selection import StratifiedShuffleSplit
 from collections import Counter
+import logging
+from logging_config import setup_logging
+
+setup_logging("PROD")  # ou "DEV"
+logger = logging.getLogger(__name__)
 
 # Chargement 
 try :
     with open("considerants_avec_labels.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 except : 
-    print("Le fichier considerants_avec_labels.json n'existe pas")
+    logger.info("Le fichier considerants_avec_labels.json n'existe pas")
 
 # Filtrage
 EXCLURE = ["1. irrecevabilite","1. procedure", "None", None]
@@ -47,6 +52,6 @@ with open("data_a_predire.json", "w", encoding="utf-8") as f:
 for nom in ["train.json", "dev.json", "test.json"]:
     with open(nom, "r", encoding="utf-8") as f:
         contenu = json.load(f)
-    print(f"\n--- {nom} ({len(contenu)} éléments) ---")
+    logger.info(f"\n--- {nom} ({len(contenu)} éléments) ---")
     for label, nb in Counter([c["label"][0] for c in contenu]).most_common():
-        print(f"  - {label} : {nb}")
+        logger.info(f"  - {label} : {nb}")

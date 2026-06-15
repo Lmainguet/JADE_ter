@@ -2,6 +2,11 @@ import json
 from pathlib import Path
 import numpy as np
 import matplotlib.pyplot as plt
+import logging
+from logging_config import setup_logging
+
+setup_logging("PROD")  # ou "DEV"
+logger = logging.getLogger(__name__)
 
 BASE_DIR = Path(__file__).resolve().parent
 STATS_DIR = BASE_DIR / "stats_predictions"
@@ -12,7 +17,7 @@ def main():
         logits = np.load(STATS_DIR / "logits.npy")
         vrais_labels = np.load(STATS_DIR / "vrais_labels.npy")
     except FileNotFoundError:
-        print("Erreur : relance d'abord le fichier train_model.py !")
+        logger.info("Erreur : relance d'abord le fichier train_model.py !")
         return
 
     # Récupération des prédictions et de leur score de confiance
@@ -25,8 +30,8 @@ def main():
     precisions, rappels = [], []
     f_scores = []
 
-    print(f"{'Seuil':<6} | {'Précision':<10} | {'Rappel':<10} | {'F-score':<10} | {'Vides':<15}")
-    print("-" * 65)
+    logger.info(f"{'Seuil':<6} | {'Précision':<10} | {'Rappel':<10} | {'F-score':<10} | {'Vides':<15}")
+    logger.info("-" * 65)
 
     for s in seuils:
         indices_valides = [i for i in range(len(probs)) if confiances[i] >= s]
@@ -50,7 +55,7 @@ def main():
         rappels.append(r)
         f_scores.append(f)
         
-        print(f"{s:.2f}   | {p:.4f}     | {r:.4f}     | {f:.4f}    | {nb_vides} / {len(vrais_labels)}")
+        logger.info(f"{s:.2f}   | {p:.4f}     | {r:.4f}     | {f:.4f}    | {nb_vides} / {len(vrais_labels)}")
 
     #Tracé du graphique
     plt.figure(figsize=(8, 6))

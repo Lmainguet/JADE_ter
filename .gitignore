@@ -40,3 +40,4 @@ code/Modele/bert_text_classifier/checkpoint-188/training_args.bin
 code/Modele/stats_predictions/logits.npy
 code/Modele/stats_predictions/vrais_labels.npy
 code/Modele/predictions_finales.json
+code/Modele/__pycache__/logging_config.cpython-312.pyc

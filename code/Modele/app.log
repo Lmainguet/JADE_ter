@@ -1,0 +1,33 @@
+2026-06-15 11:12:39,962 - __main__ - INFO - Analyse des labels pour le fichier : considerants_avec_labels.json
+2026-06-15 11:12:39,962 - __main__ - INFO - Nombre total de labels attribués : 1117
+2026-06-15 11:12:39,963 - __main__ - INFO -  - 4. campagne : propagande : 383
+2026-06-15 11:12:39,963 - __main__ - INFO -  - 7. operation : 317
+2026-06-15 11:12:39,963 - __main__ - INFO -  - 3. candidature : 193
+2026-06-15 11:12:39,964 - __main__ - INFO -  - 6. financement : 160
+2026-06-15 11:12:39,964 - __main__ - INFO -  - None : 32
+2026-06-15 11:12:39,964 - __main__ - INFO -  - 5. campagne : pressions et manœuvres : 15
+2026-06-15 11:12:39,964 - __main__ - INFO -  - 1. procedure : 13
+2026-06-15 11:12:39,964 - __main__ - INFO -  - 2. operation prealable au scrutin : 3
+2026-06-15 11:12:39,966 - __main__ - INFO -  - 1. irrecevabilite : 1
+2026-06-15 11:22:15,229 - __main__ - INFO - 
+--- train.json (750 éléments) ---
+2026-06-15 11:22:15,232 - __main__ - INFO -   - 4. campagne : propagande : 268
+2026-06-15 11:22:15,233 - __main__ - INFO -   - 7. operation : 222
+2026-06-15 11:22:15,234 - __main__ - INFO -   - 3. candidature : 135
+2026-06-15 11:22:15,234 - __main__ - INFO -   - 6. financement : 112
+2026-06-15 11:22:15,234 - __main__ - INFO -   - 5. campagne : pressions et manœuvres : 10
+2026-06-15 11:22:15,235 - __main__ - INFO -   - 2. operation prealable au scrutin : 3
+2026-06-15 11:22:15,240 - __main__ - INFO - 
+--- dev.json (160 éléments) ---
+2026-06-15 11:22:15,240 - __main__ - INFO -   - 4. campagne : propagande : 57
+2026-06-15 11:22:15,241 - __main__ - INFO -   - 7. operation : 47
+2026-06-15 11:22:15,241 - __main__ - INFO -   - 3. candidature : 29
+2026-06-15 11:22:15,241 - __main__ - INFO -   - 6. financement : 24
+2026-06-15 11:22:15,242 - __main__ - INFO -   - 5. campagne : pressions et manœuvres : 3
+2026-06-15 11:22:15,249 - __main__ - INFO - 
+--- test.json (161 éléments) ---
+2026-06-15 11:22:15,250 - __main__ - INFO -   - 4. campagne : propagande : 58
+2026-06-15 11:22:15,250 - __main__ - INFO -   - 7. operation : 48
+2026-06-15 11:22:15,250 - __main__ - INFO -   - 3. candidature : 29
+2026-06-15 11:22:15,251 - __main__ - INFO -   - 6. financement : 24
+2026-06-15 11:22:15,251 - __main__ - INFO -   - 5. campagne : pressions et manœuvres : 2

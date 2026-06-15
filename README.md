@@ -4,7 +4,7 @@
 **Pour des non informaticiens (annotateur en droit)**
 
 suivre les 2 étapes du screen ci dessous afin d'obtenir un ZIP
-![alt text](stage_2026/documents/screen_gricad.png)
+![alt text](documents/screen_gricad.png)
 
 1. decompresser le dossier
 2. Dans le dossier decompressé, aller dans stage_2026/site_annotation/dist

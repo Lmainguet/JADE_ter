@@ -99,12 +99,12 @@ vous pouvez maintenant recuperer les données à utiliser dans considerants_avec
 
 > etre dans le repertoir **jade_code/griefs/stage_2026/code/Modele**
 
-Lancer Séparation.py
+Lancer Séparation.py -> Prend en entrée considerants_avec_labels.json
 ```
 python Séparation.py
 ```
 
-Les fichiers utilisés par train_model.py sont désormais créés
+Les fichiers utilisés par train_model.py sont désormais créés (train.json, test.json, dev.json)
 
 Lancer train_model.py
 ```
@@ -116,7 +116,7 @@ Le modèle est entrainé, on peut donc lancer plot_seuils.py pour voir rappel, p
 python plot_seuils.py
 ```
 
-Ou lancer predict.py pour faire des précisions sur des nouvelles données
+Ou lancer predict.py pour faire des précisions sur des nouvelles données (ici data_a_predire.json, créé par séparation.py)
 ```
 python predict.py
 ```

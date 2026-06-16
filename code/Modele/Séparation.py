@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 try :
     with open("considerants_avec_labels.json", "r", encoding="utf-8") as f:
         data = json.load(f)
-except : 
+except FileNotFoundError : 
     logger.info("Le fichier considerants_avec_labels.json n'existe pas")
 
 # Filtrage
@@ -23,7 +23,7 @@ dataset = [
     if c.get("label") and c["label"][0] not in EXCLURE
 ]
 
-# S'ocuper du label qui n'a que 3 occurences
+# S'ocuper du label qui n'a que 3 occurences -> le laisser dans le dataset de train pour ne pas biaiser les pourcentages
 X = np.array([i for i in dataset if i["label"][0] != "2. operation prealable au scrutin"])
 rare = [i for i in dataset if i["label"][0] == "2. operation prealable au scrutin"]
 y = [i["label"][0] for i in X]
